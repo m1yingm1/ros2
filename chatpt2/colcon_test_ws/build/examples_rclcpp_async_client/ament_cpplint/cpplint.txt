@@ -1,0 +1,12 @@
+-- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/services/async_client':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cpplint.xunit.xml
+
+Using '--root=..' argument
+
+Done processing /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/services/async_client/main.cpp
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cpplint.xunit.xml'

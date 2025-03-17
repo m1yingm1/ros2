@@ -1,0 +1,23 @@
+[0.034s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_client -- -j2 -l2
+[0.183s] [100%] Built target client_main
+[0.214s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_client -- -j2 -l2
+[0.219s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_client
+[0.235s] -- Install configuration: ""
+[0.238s] -- Execute custom install script
+[0.239s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main
+[0.247s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_client
+[0.247s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_client
+[0.248s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.sh
+[0.248s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.dsv
+[0.248s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.sh
+[0.248s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.dsv
+[0.248s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.bash
+[0.248s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.sh
+[0.248s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.zsh
+[0.250s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.dsv
+[0.252s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv
+[0.266s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_client
+[0.266s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig.cmake
+[0.266s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig-version.cmake
+[0.266s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.xml
+[0.270s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_client

@@ -1,0 +1,23 @@
+[0.024s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client -- -j2 -l2
+[0.318s] [100%] Built target client_main
+[0.357s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client -- -j2 -l2
+[0.377s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client
+[0.395s] -- Install configuration: ""
+[0.400s] -- Execute custom install script
+[0.403s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client/lib/examples_rclcpp_async_client/client_main
+[0.403s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_async_client
+[0.408s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_async_client
+[0.412s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.sh
+[0.413s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.dsv
+[0.413s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.sh
+[0.414s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.dsv
+[0.414s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.bash
+[0.414s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.sh
+[0.414s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.zsh
+[0.414s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.dsv
+[0.414s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.dsv
+[0.431s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/packages/examples_rclcpp_async_client
+[0.437s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig.cmake
+[0.437s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig-version.cmake
+[0.437s] -- Up-to-date symlink: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.xml
+[0.440s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client

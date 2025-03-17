@@ -1,0 +1,19 @@
+[0.880s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_minimal_publisher': PYTHONPATH=/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_minimal_publisher/build --no-deps symlink_data
+[1.292s] running develop
+[1.495s] running egg_info
+[1.495s] writing examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[1.496s] writing dependency_links to examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[1.497s] writing entry points to examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[1.497s] writing requirements to examples_rclpy_minimal_publisher.egg-info/requires.txt
+[1.498s] writing top-level names to examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[1.500s] reading manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.507s] writing manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.510s] running build_ext
+[1.510s] Creating /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)
+[1.511s] Installing publisher_local_function script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.511s] Installing publisher_member_function script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.512s] Installing publisher_old_school script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.512s] 
+[1.512s] Installed /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_minimal_publisher
+[1.512s] running symlink_data
+[1.595s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_minimal_publisher' returned '0': PYTHONPATH=/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_minimal_publisher/build --no-deps symlink_data

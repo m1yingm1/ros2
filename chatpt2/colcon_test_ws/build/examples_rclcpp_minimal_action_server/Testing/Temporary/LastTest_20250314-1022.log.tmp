@@ -1,0 +1,113 @@
+Start testing: Mar 14 18:22 CST
+----------------------------------------------------------
+1/6 Testing: copyright
+1/6 Test: copyright
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_action_server" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/copyright.xunit.xml"
+Directory: /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/actions/minimal_action_server
+"copyright" start time: Mar 14 18:22 CST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/actions/minimal_action_server':
+ - /opt/ros/humble/bin/ament_copyright --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/copyright.xunit.xml
+No problems found, checked 2 files
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/copyright.xunit.xml'
+<end of output>
+Test time =   1.02 sec
+----------------------------------------------------------
+Test Passed.
+"copyright" end time: Mar 14 18:22 CST
+"copyright" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/6 Testing: cppcheck
+2/6 Test: cppcheck
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_minimal_action_server" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/cppcheck.xunit.xml"
+Directory: /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/actions/minimal_action_server
+"cppcheck" start time: Mar 14 18:22 CST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/actions/minimal_action_server':
+ - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/cppcheck.xunit.xml
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/cppcheck.xunit.xml'
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck" end time: Mar 14 18:22 CST
+"cppcheck" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: cpplint
+3/6 Test: cpplint
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/cpplint.xunit.xml" "--package-name" "examples_rclcpp_minimal_action_server" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/cpplint.xunit.xml"
+Directory: /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/actions/minimal_action_server
+"cpplint" start time: Mar 14 18:22 CST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/actions/minimal_action_server':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/cpplint.xunit.xml
+Using '--root=..' argument
+
+Done processing /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/actions/minimal_action_server/member_functions.cpp
+
+Done processing /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/actions/minimal_action_server/not_composable.cpp
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/cpplint.xunit.xml'
+<end of output>
+Test time =   1.04 sec
+----------------------------------------------------------
+Test Passed.
+"cpplint" end time: Mar 14 18:22 CST
+"cpplint" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/6 Testing: lint_cmake
+4/6 Test: lint_cmake
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_minimal_action_server" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/lint_cmake.xunit.xml"
+Directory: /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/actions/minimal_action_server
+"lint_cmake" start time: Mar 14 18:22 CST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/actions/minimal_action_server':
+ - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/lint_cmake.xunit.xml'
+<end of output>
+Test time =   0.71 sec
+----------------------------------------------------------
+Test Passed.
+"lint_cmake" end time: Mar 14 18:22 CST
+"lint_cmake" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: uncrustify
+5/6 Test: uncrustify
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_minimal_action_server" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/uncrustify.xunit.xml"
+Directory: /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/actions/minimal_action_server
+"uncrustify" start time: Mar 14 18:22 CST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/actions/minimal_action_server':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/uncrustify.xunit.xml
+No code style divergence in file 'member_functions.cpp'
+
+No code style divergence in file 'not_composable.cpp'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/uncrustify.xunit.xml'
+<end of output>
+Test time =   1.08 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify" end time: Mar 14 18:22 CST
+"uncrustify" time elapsed: 00:00:01
+----------------------------------------------------------
+

@@ -1,0 +1,19 @@
+[1.350s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_guard_conditions': PYTHONPATH=/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_guard_conditions/build --no-deps symlink_data --force
+[2.693s] running develop
+[3.290s] running egg_info
+[3.291s] writing examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[3.291s] writing dependency_links to examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[3.295s] writing entry points to examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[3.309s] writing requirements to examples_rclpy_guard_conditions.egg-info/requires.txt
+[3.319s] writing top-level names to examples_rclpy_guard_conditions.egg-info/top_level.txt
+[3.319s] reading manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[3.319s] writing manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[3.319s] running build_ext
+[3.319s] Creating /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples-rclpy-guard-conditions.egg-link (link to .)
+[3.340s] Installing trigger_guard_condition script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+[3.350s] 
+[3.350s] Installed /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_guard_conditions
+[3.350s] running symlink_data
+[3.350s] symbolically linking /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_guard_conditions/resource/examples_rclpy_guard_conditions -> /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[3.351s] symbolically linking /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_guard_conditions/package.xml -> /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_guard_conditions/share/examples_rclpy_guard_conditions
+[3.491s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_guard_conditions' returned '0': PYTHONPATH=/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_guard_conditions/build --no-deps symlink_data --force

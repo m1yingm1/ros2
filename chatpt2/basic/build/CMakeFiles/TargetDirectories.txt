@@ -1,0 +1,6 @@
+/home/ying/d2lros2/chatpt2/basic/build/CMakeFiles/uninstall.dir
+/home/ying/d2lros2/chatpt2/basic/build/CMakeFiles/first_node_uninstall.dir
+/home/ying/d2lros2/chatpt2/basic/build/CMakeFiles/first_node.dir
+/home/ying/d2lros2/chatpt2/basic/build/CMakeFiles/test.dir
+/home/ying/d2lros2/chatpt2/basic/build/CMakeFiles/edit_cache.dir
+/home/ying/d2lros2/chatpt2/basic/build/CMakeFiles/rebuild_cache.dir

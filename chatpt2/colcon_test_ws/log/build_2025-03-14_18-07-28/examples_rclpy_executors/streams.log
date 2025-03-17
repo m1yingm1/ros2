@@ -1,0 +1,57 @@
+[2.574s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclpy/executors': PYTHONPATH=/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/build install --record /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed install_data
+[2.969s] running egg_info
+[2.971s] creating ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info
+[2.980s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[2.981s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[2.982s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[2.983s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[2.984s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[2.986s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.995s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.998s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.998s] running build
+[2.998s] running build_py
+[3.000s] creating /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/build
+[3.000s] creating /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/build/lib
+[3.000s] creating /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.000s] copying examples_rclpy_executors/custom_callback_group.py -> /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.008s] copying examples_rclpy_executors/talker.py -> /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.010s] copying examples_rclpy_executors/listener.py -> /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.011s] copying examples_rclpy_executors/callback_group.py -> /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.012s] copying examples_rclpy_executors/composed.py -> /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.013s] copying examples_rclpy_executors/custom_executor.py -> /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.014s] copying examples_rclpy_executors/__init__.py -> /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.018s] running install
+[3.018s] running install_lib
+[3.018s] creating /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[3.018s] copying /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_callback_group.py -> /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[3.024s] copying /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/talker.py -> /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[3.024s] copying /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/listener.py -> /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[3.024s] copying /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/callback_group.py -> /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[3.024s] copying /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/composed.py -> /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[3.025s] copying /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_executor.py -> /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[3.029s] copying /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/__init__.py -> /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[3.034s] byte-compiling /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/custom_callback_group.py to custom_callback_group.cpython-310.pyc
+[3.034s] byte-compiling /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/talker.py to talker.cpython-310.pyc
+[3.035s] byte-compiling /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/listener.py to listener.cpython-310.pyc
+[3.035s] byte-compiling /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/callback_group.py to callback_group.cpython-310.pyc
+[3.043s] byte-compiling /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/composed.py to composed.cpython-310.pyc
+[3.049s] byte-compiling /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/custom_executor.py to custom_executor.cpython-310.pyc
+[3.050s] byte-compiling /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/__init__.py to __init__.cpython-310.pyc
+[3.052s] running install_data
+[3.052s] creating /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/share/ament_index
+[3.052s] creating /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/share/ament_index/resource_index
+[3.053s] creating /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[3.053s] copying resource/examples_rclpy_executors -> /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[3.053s] copying package.xml -> /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/share/examples_rclpy_executors
+[3.055s] running install_egg_info
+[3.065s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.3-py3.10.egg-info
+[3.070s] running install_scripts
+[3.108s] Installing callback_group script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.109s] Installing composed script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.111s] Installing custom_callback_group script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.111s] Installing custom_executor script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.112s] Installing listener script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.112s] Installing talker script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.113s] writing list of installed files to '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/install.log'
+[3.177s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/build install --record /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed install_data

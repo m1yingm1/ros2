@@ -1,0 +1,19 @@
+[1.215s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_pointcloud_publisher': PYTHONPATH=/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_pointcloud_publisher/build --no-deps symlink_data --force
+[1.634s] running develop
+[1.908s] running egg_info
+[1.912s] writing examples_rclpy_pointcloud_publisher.egg-info/PKG-INFO
+[1.920s] writing dependency_links to examples_rclpy_pointcloud_publisher.egg-info/dependency_links.txt
+[1.921s] writing entry points to examples_rclpy_pointcloud_publisher.egg-info/entry_points.txt
+[1.922s] writing requirements to examples_rclpy_pointcloud_publisher.egg-info/requires.txt
+[1.922s] writing top-level names to examples_rclpy_pointcloud_publisher.egg-info/top_level.txt
+[1.938s] reading manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[1.938s] writing manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[1.938s] running build_ext
+[1.938s] Creating /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples-rclpy-pointcloud-publisher.egg-link (link to .)
+[1.945s] Installing pointcloud_publisher script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_pointcloud_publisher/lib/examples_rclpy_pointcloud_publisher
+[1.945s] 
+[1.945s] Installed /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_pointcloud_publisher
+[1.945s] running symlink_data
+[1.946s] symbolically linking /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_pointcloud_publisher/resource/examples_rclpy_pointcloud_publisher -> /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[1.946s] symbolically linking /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_pointcloud_publisher/package.xml -> /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_pointcloud_publisher/share/examples_rclpy_pointcloud_publisher
+[1.999s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_pointcloud_publisher' returned '0': PYTHONPATH=/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_pointcloud_publisher/build --no-deps symlink_data --force

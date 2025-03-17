@@ -1,0 +1,63 @@
+[0.085s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor
+[0.159s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.563s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.600s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.652s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.657s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.668s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.682s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.700s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.778s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.782s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.961s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.097s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.314s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.325s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.325s] -- Configured cppcheck include dirs: /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor/include
+[1.326s] -- Configured cppcheck exclude dirs and/or files: 
+[1.329s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.332s] -- Configured cpplint exclude dirs and/or files: 
+[1.344s] -- Added test 'lint_cmake' to check CMake code style
+[1.348s] -- Added test 'uncrustify' to check C / C++ code style
+[1.353s] -- Configured uncrustify additional arguments: 
+[1.353s] -- Added test 'xmllint' to check XML markup files
+[1.364s] -- Configuring done
+[1.465s] -- Generating done
+[1.482s] -- Build files have been written to: /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor
+[1.504s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor
+[1.516s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor -- -j2 -l2
+[1.630s] [35m[1mConsolidate compiler generated dependencies of target ping[0m
+[1.669s] [35m[1mConsolidate compiler generated dependencies of target pong[0m
+[1.754s] [ 10%] [32m[1mLinking CXX executable ping[0m
+[1.782s] [ 20%] [32m[1mLinking CXX executable pong[0m
+[3.595s] [ 40%] Built target pong
+[3.620s] [35m[1mConsolidate compiler generated dependencies of target ping_pong[0m
+[3.636s] [ 60%] Built target ping
+[3.670s] [ 70%] [32m[1mLinking CXX executable ping_pong[0m
+[5.351s] [100%] Built target ping_pong
+[5.431s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor -- -j2 -l2
+[5.434s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor
+[5.470s] -- Install configuration: ""
+[5.471s] -- Execute custom install script
+[5.474s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[5.519s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[5.567s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[5.590s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[5.614s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[5.645s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[5.673s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[5.710s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+[5.773s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[5.794s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+[5.815s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[5.852s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[5.877s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[5.899s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[5.937s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[5.980s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[6.015s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[6.040s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.095s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[6.142s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[6.173s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml
+[6.213s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor

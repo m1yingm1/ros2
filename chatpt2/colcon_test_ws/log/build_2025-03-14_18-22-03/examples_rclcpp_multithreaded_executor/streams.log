@@ -1,0 +1,52 @@
+[0.048s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/multithreaded_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor
+[0.067s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.437s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.471s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.536s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.540s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.555s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.571s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.596s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.654s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.660s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.852s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.934s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.065s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.069s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.069s] -- Configured cppcheck include dirs: 
+[1.069s] -- Configured cppcheck exclude dirs and/or files: 
+[1.069s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.069s] -- Configured cpplint exclude dirs and/or files: 
+[1.071s] -- Added test 'lint_cmake' to check CMake code style
+[1.072s] -- Added test 'uncrustify' to check C / C++ code style
+[1.074s] -- Configured uncrustify additional arguments: 
+[1.078s] -- Added test 'xmllint' to check XML markup files
+[1.082s] -- Configuring done
+[1.134s] -- Generating done
+[1.151s] -- Build files have been written to: /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor
+[1.172s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/multithreaded_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor
+[1.172s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor -- -j2 -l2
+[1.313s] [35m[1mConsolidate compiler generated dependencies of target multithreaded_executor[0m
+[1.364s] [ 50%] [32m[1mLinking CXX executable multithreaded_executor[0m
+[2.464s] [100%] Built target multithreaded_executor
+[2.504s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor -- -j2 -l2
+[2.507s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor
+[2.518s] -- Install configuration: ""
+[2.520s] -- Execute custom install script
+[2.520s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor
+[2.539s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_multithreaded_executor
+[2.571s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_multithreaded_executor
+[2.592s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.sh
+[2.611s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.dsv
+[2.633s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.sh
+[2.664s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.dsv
+[2.681s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.bash
+[2.700s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.sh
+[2.736s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.zsh
+[2.773s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.dsv
+[2.793s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.dsv
+[2.820s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/packages/examples_rclcpp_multithreaded_executor
+[2.842s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig.cmake
+[2.874s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig-version.cmake
+[2.902s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.xml
+[2.931s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor

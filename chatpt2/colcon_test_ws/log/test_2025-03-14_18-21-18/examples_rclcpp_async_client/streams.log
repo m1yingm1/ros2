@@ -1,0 +1,106 @@
+[0.129s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client': AMENT_PREFIX_PATH=/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.168s] UpdateCTestConfiguration  from :/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/CTestConfiguration.ini
+[0.168s] Parse Config file:/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/CTestConfiguration.ini
+[0.168s]    Site: ying-virtual-machine
+[0.168s]    Build name: (empty)
+[0.168s]  Add coverage exclude regular expressions.
+[0.168s] Create new tag: 20250314-1021 - Experimental
+[0.171s] UpdateCTestConfiguration  from :/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/CTestConfiguration.ini
+[0.172s] Parse Config file:/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/CTestConfiguration.ini
+[0.172s] Test project /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client
+[0.172s] Constructing a list of tests
+[0.176s] Done constructing a list of tests
+[0.176s] Updating test list for fixtures
+[0.184s] Added 0 tests to meet fixture requirements
+[0.188s] Checking test dependency graph...
+[0.188s] Checking test dependency graph end
+[0.188s] test 1
+[0.190s]     Start 1: copyright
+[0.190s] 
+[0.190s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/copyright.xunit.xml" "--package-name" "examples_rclcpp_async_client" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/copyright.xunit.xml"
+[0.190s] 1: Test timeout computed to be: 200
+[0.355s] 1: -- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/services/async_client':
+[0.355s] 1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/copyright.xunit.xml
+[0.841s] 1: No problems found, checked 1 files
+[0.868s] 1: -- run_test.py: return code 0
+[0.871s] 1: -- run_test.py: verify result file '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/copyright.xunit.xml'
+[0.887s] 1/6 Test #1: copyright ........................   Passed    0.71 sec
+[0.898s] test 2
+[0.899s]     Start 2: cppcheck
+[0.900s] 
+[0.902s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_async_client" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cppcheck.xunit.xml"
+[0.902s] 2: Test timeout computed to be: 300
+[1.080s] 2: -- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/services/async_client':
+[1.080s] 2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cppcheck.xunit.xml
+[1.291s] 2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[1.324s] 2: -- run_test.py: return code 0
+[1.326s] 2: -- run_test.py: verify result file '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cppcheck.xunit.xml'
+[1.342s] 2/6 Test #2: cppcheck .........................   Passed    0.44 sec
+[1.352s] test 3
+[1.356s]     Start 3: cpplint
+[1.358s] 
+[1.360s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cpplint.xunit.xml" "--package-name" "examples_rclcpp_async_client" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cpplint.xunit.xml"
+[1.364s] 3: Test timeout computed to be: 120
+[1.481s] 3: -- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/services/async_client':
+[1.481s] 3:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cpplint.xunit.xml
+[1.792s] 3: Using '--root=..' argument
+[1.792s] 3: 
+[1.795s] 3: Done processing /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/services/async_client/main.cpp
+[1.796s] 3: 
+[1.799s] 3: No problems found
+[1.814s] 3: -- run_test.py: return code 0
+[1.814s] 3: -- run_test.py: verify result file '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cpplint.xunit.xml'
+[1.836s] 3/6 Test #3: cpplint ..........................   Passed    0.49 sec
+[1.836s] test 4
+[1.836s]     Start 4: lint_cmake
+[1.836s] 
+[1.836s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_async_client" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/lint_cmake.xunit.xml"
+[1.836s] 4: Test timeout computed to be: 60
+[1.948s] 4: -- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/services/async_client':
+[1.948s] 4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/lint_cmake.xunit.xml
+[2.075s] 4: 
+[2.075s] 4: No problems found
+[2.095s] 4: -- run_test.py: return code 0
+[2.098s] 4: -- run_test.py: verify result file '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/lint_cmake.xunit.xml'
+[2.117s] 4/6 Test #4: lint_cmake .......................   Passed    0.27 sec
+[2.118s] test 5
+[2.118s]     Start 5: uncrustify
+[2.118s] 
+[2.118s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_async_client" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/uncrustify.xunit.xml"
+[2.118s] 5: Test timeout computed to be: 60
+[2.220s] 5: -- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/services/async_client':
+[2.220s] 5:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/uncrustify.xunit.xml
+[2.416s] 5: No code style divergence in file 'main.cpp'
+[2.416s] 5: 
+[2.416s] 5: No problems found
+[2.459s] 5: -- run_test.py: return code 0
+[2.459s] 5: -- run_test.py: verify result file '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/uncrustify.xunit.xml'
+[2.501s] 5/6 Test #5: uncrustify .......................   Passed    0.37 sec
+[2.501s] test 6
+[2.501s]     Start 6: xmllint
+[2.501s] 
+[2.501s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/xmllint.xunit.xml" "--package-name" "examples_rclcpp_async_client" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/xmllint.xunit.xml"
+[2.502s] 6: Test timeout computed to be: 60
+[2.626s] 6: -- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/services/async_client':
+[2.626s] 6:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/xmllint.xunit.xml
+[62.650s] 6/6 Test #6: xmllint ..........................***Timeout  60.14 sec
+[62.650s] 
+[62.650s] 83% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 6
+[62.650s] 
+[62.650s] Label Time Summary:
+[62.650s] copyright     =   0.71 sec*proc (1 test)
+[62.651s] cppcheck      =   0.44 sec*proc (1 test)
+[62.651s] cpplint       =   0.49 sec*proc (1 test)
+[62.651s] lint_cmake    =   0.27 sec*proc (1 test)
+[62.651s] linter        =  62.43 sec*proc (6 tests)
+[62.651s] uncrustify    =   0.37 sec*proc (1 test)
+[62.651s] xmllint       =  60.14 sec*proc (1 test)
+[62.651s] 
+[62.651s] Total Test time (real) =  62.46 sec
+[62.657s] 
+[62.658s] The following tests FAILED:
+[62.658s] 	[0;31m  6 - xmllint (Timeout)[0;0m
+[62.665s] Errors while running CTest
+[62.673s] Output from these tests are in: /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/Testing/Temporary/LastTest.log
+[62.673s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[62.682s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client' returned '8': AMENT_PREFIX_PATH=/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

@@ -1,0 +1,72 @@
+[0.057s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher
+[0.077s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.441s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.461s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.499s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.510s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.530s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.560s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.583s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.640s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.641s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.839s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.979s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.218s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.219s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.224s] -- Configured cppcheck include dirs: 
+[1.226s] -- Configured cppcheck exclude dirs and/or files: 
+[1.234s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.242s] -- Configured cpplint exclude dirs and/or files: 
+[1.244s] -- Added test 'lint_cmake' to check CMake code style
+[1.251s] -- Added test 'uncrustify' to check C / C++ code style
+[1.252s] -- Configured uncrustify additional arguments: 
+[1.252s] -- Added test 'xmllint' to check XML markup files
+[1.265s] -- Configuring done
+[1.385s] -- Generating done
+[1.409s] -- Build files have been written to: /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher
+[1.431s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher
+[1.435s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher -- -j2 -l2
+[1.529s] [35m[1mConsolidate compiler generated dependencies of target publisher_lambda[0m
+[1.565s] [35m[1mConsolidate compiler generated dependencies of target publisher_member_function[0m
+[1.591s] [  8%] [32m[1mLinking CXX executable publisher_lambda[0m
+[1.667s] [ 16%] [32m[1mLinking CXX executable publisher_member_function[0m
+[2.711s] [ 25%] Built target publisher_lambda
+[2.737s] [35m[1mConsolidate compiler generated dependencies of target publisher_member_function_with_type_adapter[0m
+[2.737s] [ 33%] Built target publisher_member_function
+[2.843s] [35m[1mConsolidate compiler generated dependencies of target publisher_member_function_with_unique_network_flow_endpoints[0m
+[2.876s] [ 41%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[2.954s] [ 50%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[4.305s] [ 58%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[4.343s] [35m[1mConsolidate compiler generated dependencies of target publisher_wait_for_all_acked[0m
+[4.427s] [ 66%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[4.712s] [ 75%] Built target publisher_member_function_with_type_adapter
+[4.788s] [35m[1mConsolidate compiler generated dependencies of target publisher_not_composable[0m
+[4.864s] [ 83%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[5.342s] [ 91%] Built target publisher_wait_for_all_acked
+[5.504s] [100%] Built target publisher_not_composable
+[5.521s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher -- -j2 -l2
+[5.532s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher
+[5.551s] -- Install configuration: ""
+[5.553s] -- Execute custom install script
+[5.555s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[5.582s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[5.601s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[5.627s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[5.653s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[5.679s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[5.706s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[5.728s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[5.750s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[5.769s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[5.794s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[5.814s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[5.839s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[5.861s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[5.881s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[5.911s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[5.932s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[5.961s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[5.983s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[6.011s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[6.030s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[6.061s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher

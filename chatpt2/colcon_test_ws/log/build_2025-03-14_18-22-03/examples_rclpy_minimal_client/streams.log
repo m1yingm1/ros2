@@ -1,0 +1,22 @@
+[1.647s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_minimal_client': PYTHONPATH=/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_minimal_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_minimal_client/build --no-deps symlink_data --force
+[2.090s] running develop
+[2.401s] running egg_info
+[2.402s] writing examples_rclpy_minimal_client.egg-info/PKG-INFO
+[2.407s] writing dependency_links to examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[2.407s] writing entry points to examples_rclpy_minimal_client.egg-info/entry_points.txt
+[2.408s] writing requirements to examples_rclpy_minimal_client.egg-info/requires.txt
+[2.414s] writing top-level names to examples_rclpy_minimal_client.egg-info/top_level.txt
+[2.424s] reading manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[2.432s] writing manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[2.436s] running build_ext
+[2.436s] Creating /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples-rclpy-minimal-client.egg-link (link to .)
+[2.436s] Installing client script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[2.436s] Installing client_async script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[2.442s] Installing client_async_callback script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[2.442s] Installing client_async_member_function script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[2.442s] 
+[2.443s] Installed /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_minimal_client
+[2.443s] running symlink_data
+[2.443s] symbolically linking /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_minimal_client/resource/examples_rclpy_minimal_client -> /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[2.443s] symbolically linking /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_minimal_client/package.xml -> /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_minimal_client/share/examples_rclpy_minimal_client
+[2.495s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_minimal_client' returned '0': PYTHONPATH=/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_minimal_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_minimal_client/build --no-deps symlink_data --force

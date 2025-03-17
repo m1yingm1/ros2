@@ -1,0 +1,16 @@
+[1.069s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/launch_testing_examples': PYTHONPATH=/home/ying/d2lros2/chatpt2/colcon_test_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ying/d2lros2/chatpt2/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ying/d2lros2/chatpt2/colcon_test_ws/build/launch_testing_examples/build --no-deps symlink_data
+[1.748s] running develop
+[1.977s] running egg_info
+[1.978s] writing launch_testing_examples.egg-info/PKG-INFO
+[1.982s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[1.982s] writing entry points to launch_testing_examples.egg-info/entry_points.txt
+[1.982s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[1.982s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[1.982s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[1.988s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[1.999s] running build_ext
+[1.999s] Creating /home/ying/d2lros2/chatpt2/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch-testing-examples.egg-link (link to .)
+[2.001s] 
+[2.001s] Installed /home/ying/d2lros2/chatpt2/colcon_test_ws/build/launch_testing_examples
+[2.001s] running symlink_data
+[2.040s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/launch_testing_examples' returned '0': PYTHONPATH=/home/ying/d2lros2/chatpt2/colcon_test_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ying/d2lros2/chatpt2/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ying/d2lros2/chatpt2/colcon_test_ws/build/launch_testing_examples/build --no-deps symlink_data

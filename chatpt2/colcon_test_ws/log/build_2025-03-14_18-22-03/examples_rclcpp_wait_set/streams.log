@@ -1,0 +1,99 @@
+[0.035s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set
+[0.080s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.331s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.339s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.386s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.396s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.399s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.415s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.525s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.574s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.581s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.747s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.819s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.869s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.025s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.028s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.034s] -- Configured cppcheck include dirs: /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/wait_set/include
+[1.034s] -- Configured cppcheck exclude dirs and/or files: 
+[1.036s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.036s] -- Configured cpplint exclude dirs and/or files: 
+[1.046s] -- Added test 'lint_cmake' to check CMake code style
+[1.048s] -- Added test 'uncrustify' to check C / C++ code style
+[1.049s] -- Configured uncrustify additional arguments: 
+[1.054s] -- Added test 'xmllint' to check XML markup files
+[1.062s] -- Configuring done
+[1.272s] -- Generating done
+[1.318s] -- Build files have been written to: /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_wait_set
+[1.342s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set
+[1.343s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_wait_set -- -j2 -l2
+[1.445s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[1.553s] [  4%] [32m[1mLinking CXX shared library libtalker.so[0m
+[2.346s] [  8%] Built target talker
+[2.377s] [35m[1mConsolidate compiler generated dependencies of target wait_set_talker[0m
+[2.438s] [ 12%] [32m[1mLinking CXX executable wait_set_talker[0m
+[2.936s] [ 16%] Built target wait_set_talker
+[3.004s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[3.089s] [ 20%] [32m[1mLinking CXX shared library liblistener.so[0m
+[4.763s] [ 25%] Built target listener
+[4.788s] [35m[1mConsolidate compiler generated dependencies of target wait_set_listener[0m
+[4.831s] [ 29%] [32m[1mLinking CXX executable wait_set_listener[0m
+[5.120s] [ 33%] Built target wait_set_listener
+[5.142s] [35m[1mConsolidate compiler generated dependencies of target wait_set[0m
+[5.187s] [ 37%] [32m[1mLinking CXX executable wait_set[0m
+[6.333s] [ 41%] Built target wait_set
+[6.355s] [35m[1mConsolidate compiler generated dependencies of target static_wait_set[0m
+[6.408s] [ 45%] [32m[1mLinking CXX executable static_wait_set[0m
+[7.378s] [ 50%] Built target static_wait_set
+[7.420s] [35m[1mConsolidate compiler generated dependencies of target thread_safe_wait_set[0m
+[7.451s] [ 54%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[8.720s] [ 58%] Built target thread_safe_wait_set
+[8.866s] [35m[1mConsolidate compiler generated dependencies of target wait_set_topics_and_timer[0m
+[8.956s] [ 62%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[10.996s] [ 66%] Built target wait_set_topics_and_timer
+[11.020s] [35m[1mConsolidate compiler generated dependencies of target wait_set_random_order[0m
+[11.071s] [ 70%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[12.025s] [ 75%] Built target wait_set_random_order
+[12.055s] [35m[1mConsolidate compiler generated dependencies of target executor_random_order[0m
+[12.092s] [ 79%] [32m[1mLinking CXX executable executor_random_order[0m
+[13.005s] [ 83%] Built target executor_random_order
+[13.025s] [35m[1mConsolidate compiler generated dependencies of target wait_set_topics_with_different_rates[0m
+[13.085s] [ 87%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[14.431s] [ 91%] Built target wait_set_topics_with_different_rates
+[14.575s] [35m[1mConsolidate compiler generated dependencies of target wait_set_composed[0m
+[14.728s] [ 95%] [32m[1mLinking CXX executable wait_set_composed[0m
+[15.648s] [100%] Built target wait_set_composed
+[15.698s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_wait_set -- -j2 -l2
+[15.701s] Invoking command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_wait_set
+[15.746s] -- Install configuration: ""
+[15.747s] -- Execute custom install script
+[15.749s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[15.782s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[15.819s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+[15.852s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+[15.893s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[15.931s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[15.949s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[15.976s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[15.992s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[16.008s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[16.040s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[16.058s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[16.076s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[16.092s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[16.112s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[16.143s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[16.159s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[16.184s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[16.201s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[16.229s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[16.268s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[16.280s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[16.299s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[16.326s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[16.350s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[16.379s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[16.413s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[16.518s] -- Symlinking: /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[16.629s] Invoked command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_wait_set

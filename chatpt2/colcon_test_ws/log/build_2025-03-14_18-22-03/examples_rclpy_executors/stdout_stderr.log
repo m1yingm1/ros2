@@ -1,0 +1,22 @@
+running develop
+running egg_info
+writing examples_rclpy_executors.egg-info/PKG-INFO
+writing dependency_links to examples_rclpy_executors.egg-info/dependency_links.txt
+writing entry points to examples_rclpy_executors.egg-info/entry_points.txt
+writing requirements to examples_rclpy_executors.egg-info/requires.txt
+writing top-level names to examples_rclpy_executors.egg-info/top_level.txt
+reading manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples-rclpy-executors.egg-link (link to .)
+Installing callback_group script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+Installing composed script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+Installing custom_callback_group script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+Installing custom_executor script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+Installing listener script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+Installing talker script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+
+Installed /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors
+running symlink_data
+symbolically linking /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/resource/examples_rclpy_executors -> /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+symbolically linking /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_executors/package.xml -> /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors/share/examples_rclpy_executors

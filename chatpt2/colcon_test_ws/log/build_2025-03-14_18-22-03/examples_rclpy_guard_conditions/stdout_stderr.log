@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing examples_rclpy_guard_conditions.egg-info/PKG-INFO
+writing dependency_links to examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+writing entry points to examples_rclpy_guard_conditions.egg-info/entry_points.txt
+writing requirements to examples_rclpy_guard_conditions.egg-info/requires.txt
+writing top-level names to examples_rclpy_guard_conditions.egg-info/top_level.txt
+reading manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+writing manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples-rclpy-guard-conditions.egg-link (link to .)
+Installing trigger_guard_condition script to /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+
+Installed /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_guard_conditions
+running symlink_data
+symbolically linking /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_guard_conditions/resource/examples_rclpy_guard_conditions -> /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+symbolically linking /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclpy_guard_conditions/package.xml -> /home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_guard_conditions/share/examples_rclpy_guard_conditions

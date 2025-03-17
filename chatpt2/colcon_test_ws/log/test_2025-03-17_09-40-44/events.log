@@ -1,0 +1,452 @@
+[0.000000] (-) TimerEvent: {}
+[0.000188] (examples_rclcpp_async_client) JobQueued: {'identifier': 'examples_rclcpp_async_client', 'dependencies': OrderedDict([('examples_rclcpp_async_client', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client')])}
+[0.000270] (examples_rclcpp_cbg_executor) JobQueued: {'identifier': 'examples_rclcpp_cbg_executor', 'dependencies': OrderedDict([('examples_rclcpp_cbg_executor', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor')])}
+[0.000329] (examples_rclcpp_minimal_action_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_client', 'dependencies': OrderedDict([('examples_rclcpp_minimal_action_client', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_action_client')])}
+[0.000355] (examples_rclcpp_minimal_action_server) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_server', 'dependencies': OrderedDict([('examples_rclcpp_minimal_action_server', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_action_server')])}
+[0.000374] (examples_rclcpp_minimal_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_client', 'dependencies': OrderedDict([('examples_rclcpp_minimal_client', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_client')])}
+[0.000396] (examples_rclcpp_minimal_composition) JobQueued: {'identifier': 'examples_rclcpp_minimal_composition', 'dependencies': OrderedDict([('examples_rclcpp_minimal_composition', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_composition')])}
+[0.000472] (examples_rclcpp_minimal_publisher) JobQueued: {'identifier': 'examples_rclcpp_minimal_publisher', 'dependencies': OrderedDict([('examples_rclcpp_minimal_publisher', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher')])}
+[0.000531] (examples_rclcpp_minimal_service) JobQueued: {'identifier': 'examples_rclcpp_minimal_service', 'dependencies': OrderedDict([('examples_rclcpp_minimal_service', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_service')])}
+[0.000555] (examples_rclcpp_minimal_subscriber) JobQueued: {'identifier': 'examples_rclcpp_minimal_subscriber', 'dependencies': OrderedDict([('examples_rclcpp_minimal_subscriber', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_subscriber')])}
+[0.000609] (examples_rclcpp_minimal_timer) JobQueued: {'identifier': 'examples_rclcpp_minimal_timer', 'dependencies': OrderedDict([('examples_rclcpp_minimal_timer', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_minimal_timer')])}
+[0.001121] (examples_rclcpp_multithreaded_executor) JobQueued: {'identifier': 'examples_rclcpp_multithreaded_executor', 'dependencies': OrderedDict([('examples_rclcpp_multithreaded_executor', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor')])}
+[0.001578] (examples_rclcpp_wait_set) JobQueued: {'identifier': 'examples_rclcpp_wait_set', 'dependencies': OrderedDict([('examples_rclcpp_wait_set', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_wait_set')])}
+[0.002010] (examples_rclpy_executors) JobQueued: {'identifier': 'examples_rclpy_executors', 'dependencies': OrderedDict([('examples_rclpy_executors', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_executors')])}
+[0.002313] (examples_rclpy_guard_conditions) JobQueued: {'identifier': 'examples_rclpy_guard_conditions', 'dependencies': OrderedDict([('examples_rclpy_guard_conditions', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_guard_conditions')])}
+[0.002580] (examples_rclpy_minimal_action_client) JobQueued: {'identifier': 'examples_rclpy_minimal_action_client', 'dependencies': OrderedDict([('examples_rclpy_minimal_action_client', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_minimal_action_client')])}
+[0.002646] (examples_rclpy_minimal_action_server) JobQueued: {'identifier': 'examples_rclpy_minimal_action_server', 'dependencies': OrderedDict([('examples_rclpy_minimal_action_server', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_minimal_action_server')])}
+[0.002685] (examples_rclpy_minimal_client) JobQueued: {'identifier': 'examples_rclpy_minimal_client', 'dependencies': OrderedDict([('examples_rclpy_minimal_client', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_minimal_client')])}
+[0.002742] (examples_rclpy_minimal_publisher) JobQueued: {'identifier': 'examples_rclpy_minimal_publisher', 'dependencies': OrderedDict([('examples_rclpy_minimal_publisher', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_minimal_publisher')])}
+[0.003683] (examples_rclpy_minimal_service) JobQueued: {'identifier': 'examples_rclpy_minimal_service', 'dependencies': OrderedDict([('examples_rclpy_minimal_service', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_minimal_service')])}
+[0.003783] (examples_rclpy_minimal_subscriber) JobQueued: {'identifier': 'examples_rclpy_minimal_subscriber', 'dependencies': OrderedDict([('examples_rclpy_minimal_subscriber', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber')])}
+[0.003844] (examples_rclpy_pointcloud_publisher) JobQueued: {'identifier': 'examples_rclpy_pointcloud_publisher', 'dependencies': OrderedDict([('examples_rclpy_pointcloud_publisher', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclpy_pointcloud_publisher')])}
+[0.003867] (launch_testing_examples) JobQueued: {'identifier': 'launch_testing_examples', 'dependencies': OrderedDict([('launch_testing_examples', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/launch_testing_examples')])}
+[0.003888] (examples_rclcpp_async_client) JobStarted: {'identifier': 'examples_rclcpp_async_client'}
+[0.018032] (examples_rclcpp_cbg_executor) JobStarted: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.098338] (-) TimerEvent: {}
+[0.105688] (examples_rclcpp_cbg_executor) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ying'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ying'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '22327'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ying'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ying'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ying-virtual-machine:@/tmp/.ICE-unix/1691,unix/ying-virtual-machine:/tmp/.ICE-unix/1691'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4dae2b19_7978_4e9d_95fa_6c0e54cdd233'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MXKU32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_cbg_executor')]), 'shell': False}
+[0.117697] (examples_rclcpp_async_client) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ying'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ying'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '22327'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ying'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ying'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ying-virtual-machine:@/tmp/.ICE-unix/1691,unix/ying-virtual-machine:/tmp/.ICE-unix/1691'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4dae2b19_7978_4e9d_95fa_6c0e54cdd233'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MXKU32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ying/d2lros2/chatpt2/colcon_test_ws/install/examples_rclcpp_async_client')]), 'shell': False}
+[0.131882] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/CTestConfiguration.ini\n'}
+[0.132229] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'Parse Config file:/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/CTestConfiguration.ini\n'}
+[0.132702] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'   Site: ying-virtual-machine\n'}
+[0.132792] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.132904] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.133156] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'Create new tag: 20250317-0140 - Experimental\n'}
+[0.133521] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/CTestConfiguration.ini\n'}
+[0.133673] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'Parse Config file:/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/CTestConfiguration.ini\n'}
+[0.133854] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'Test project /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor\n'}
+[0.134520] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.134662] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.135043] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.135130] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.137917] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.138074] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.138142] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'test 1\n'}
+[0.138200] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[0.145370] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'\n'}
+[0.145557] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/copyright.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/copyright.xunit.xml"\n'}
+[0.145656] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'1: Test timeout computed to be: 200\n'}
+[0.146604] (examples_rclcpp_async_client) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/CTestConfiguration.ini\n'}
+[0.146804] (examples_rclcpp_async_client) StdoutLine: {'line': b'Parse Config file:/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/CTestConfiguration.ini\n'}
+[0.147761] (examples_rclcpp_async_client) StdoutLine: {'line': b'   Site: ying-virtual-machine\n'}
+[0.147834] (examples_rclcpp_async_client) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.147894] (examples_rclcpp_async_client) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.147950] (examples_rclcpp_async_client) StdoutLine: {'line': b'Create new tag: 20250317-0140 - Experimental\n'}
+[0.148006] (examples_rclcpp_async_client) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/CTestConfiguration.ini\n'}
+[0.148061] (examples_rclcpp_async_client) StdoutLine: {'line': b'Parse Config file:/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/CTestConfiguration.ini\n'}
+[0.149466] (examples_rclcpp_async_client) StdoutLine: {'line': b'Test project /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client\n'}
+[0.149566] (examples_rclcpp_async_client) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.149624] (examples_rclcpp_async_client) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.149678] (examples_rclcpp_async_client) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.149739] (examples_rclcpp_async_client) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.151741] (examples_rclcpp_async_client) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.151907] (examples_rclcpp_async_client) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.151967] (examples_rclcpp_async_client) StdoutLine: {'line': b'test 1\n'}
+[0.152022] (examples_rclcpp_async_client) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[0.152076] (examples_rclcpp_async_client) StdoutLine: {'line': b'\n'}
+[0.152131] (examples_rclcpp_async_client) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/copyright.xunit.xml" "--package-name" "examples_rclcpp_async_client" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/copyright.xunit.xml"\n'}
+[0.152201] (examples_rclcpp_async_client) StdoutLine: {'line': b'1: Test timeout computed to be: 200\n'}
+[0.199895] (-) TimerEvent: {}
+[0.235669] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor':\n"}
+[0.237685] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/copyright.xunit.xml\n'}
+[0.237784] (examples_rclcpp_async_client) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/services/async_client':\n"}
+[0.237855] (examples_rclcpp_async_client) StdoutLine: {'line': b'1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/copyright.xunit.xml\n'}
+[0.303960] (-) TimerEvent: {}
+[0.409190] (-) TimerEvent: {}
+[0.462338] (examples_rclcpp_async_client) StdoutLine: {'line': b'1: No problems found, checked 1 files\n'}
+[0.476523] (examples_rclcpp_async_client) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.477455] (examples_rclcpp_async_client) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/copyright.xunit.xml'\n"}
+[0.500467] (examples_rclcpp_async_client) StdoutLine: {'line': b'1/6 Test #1: copyright ........................   Passed    0.35 sec\n'}
+[0.500759] (examples_rclcpp_async_client) StdoutLine: {'line': b'test 2\n'}
+[0.500826] (examples_rclcpp_async_client) StdoutLine: {'line': b'    Start 2: cppcheck\n'}
+[0.500883] (examples_rclcpp_async_client) StdoutLine: {'line': b'\n'}
+[0.500940] (examples_rclcpp_async_client) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_async_client" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cppcheck.xunit.xml"\n'}
+[0.501009] (examples_rclcpp_async_client) StdoutLine: {'line': b'2: Test timeout computed to be: 300\n'}
+[0.509490] (-) TimerEvent: {}
+[0.582075] (examples_rclcpp_async_client) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/services/async_client':\n"}
+[0.582949] (examples_rclcpp_async_client) StdoutLine: {'line': b'2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cppcheck.xunit.xml\n'}
+[0.610521] (-) TimerEvent: {}
+[0.711683] (-) TimerEvent: {}
+[0.724391] (examples_rclcpp_async_client) StdoutLine: {'line': b'2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[0.727973] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'1: No problems found, checked 8 files\n'}
+[0.747979] (examples_rclcpp_async_client) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.750674] (examples_rclcpp_async_client) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cppcheck.xunit.xml'\n"}
+[0.757239] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.758540] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/copyright.xunit.xml'\n"}
+[0.764083] (examples_rclcpp_async_client) StdoutLine: {'line': b'2/6 Test #2: cppcheck .........................   Passed    0.26 sec\n'}
+[0.765297] (examples_rclcpp_async_client) StdoutLine: {'line': b'test 3\n'}
+[0.769053] (examples_rclcpp_async_client) StdoutLine: {'line': b'    Start 3: cpplint\n'}
+[0.769747] (examples_rclcpp_async_client) StdoutLine: {'line': b'\n'}
+[0.770402] (examples_rclcpp_async_client) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cpplint.xunit.xml" "--package-name" "examples_rclcpp_async_client" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cpplint.xunit.xml"\n'}
+[0.770503] (examples_rclcpp_async_client) StdoutLine: {'line': b'3: Test timeout computed to be: 120\n'}
+[0.781060] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'1/6 Test #1: copyright ........................   Passed    0.64 sec\n'}
+[0.784009] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'test 2\n'}
+[0.784659] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'    Start 2: cppcheck\n'}
+[0.786451] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'\n'}
+[0.787313] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cppcheck.xunit.xml" "--include_dirs" "/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor/include"\n'}
+[0.787563] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'2: Test timeout computed to be: 300\n'}
+[0.811969] (-) TimerEvent: {}
+[0.837992] (examples_rclcpp_async_client) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/services/async_client':\n"}
+[0.838168] (examples_rclcpp_async_client) StdoutLine: {'line': b'3:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cpplint.xunit.xml\n'}
+[0.871317] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor':\n"}
+[0.872308] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cppcheck.xunit.xml --include_dirs /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor/include\n'}
+[0.913876] (-) TimerEvent: {}
+[0.977387] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[0.992462] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.994171] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cppcheck.xunit.xml'\n"}
+[1.009362] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'2/6 Test #2: cppcheck .........................   Passed    0.22 sec\n'}
+[1.010530] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'test 3\n'}
+[1.010651] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'    Start 3: cpplint\n'}
+[1.010711] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'\n'}
+[1.010769] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cpplint.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cpplint.xunit.xml"\n'}
+[1.010892] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: Test timeout computed to be: 120\n'}
+[1.014802] (-) TimerEvent: {}
+[1.035724] (examples_rclcpp_async_client) StdoutLine: {'line': b"3: Using '--root=..' argument\n"}
+[1.036710] (examples_rclcpp_async_client) StdoutLine: {'line': b'3: \n'}
+[1.036995] (examples_rclcpp_async_client) StdoutLine: {'line': b'3: Done processing /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/services/async_client/main.cpp\n'}
+[1.037101] (examples_rclcpp_async_client) StdoutLine: {'line': b'3: \n'}
+[1.037161] (examples_rclcpp_async_client) StdoutLine: {'line': b'3: No problems found\n'}
+[1.076321] (examples_rclcpp_async_client) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[1.080110] (examples_rclcpp_async_client) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cpplint.xunit.xml'\n"}
+[1.097069] (examples_rclcpp_async_client) StdoutLine: {'line': b'3/6 Test #3: cpplint ..........................   Passed    0.33 sec\n'}
+[1.099489] (examples_rclcpp_async_client) StdoutLine: {'line': b'test 4\n'}
+[1.099636] (examples_rclcpp_async_client) StdoutLine: {'line': b'    Start 4: lint_cmake\n'}
+[1.099699] (examples_rclcpp_async_client) StdoutLine: {'line': b'\n'}
+[1.099757] (examples_rclcpp_async_client) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_async_client" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/lint_cmake.xunit.xml"\n'}
+[1.099840] (examples_rclcpp_async_client) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[1.114953] (-) TimerEvent: {}
+[1.131275] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor':\n"}
+[1.132590] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cpplint.xunit.xml\n'}
+[1.193810] (examples_rclcpp_async_client) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/services/async_client':\n"}
+[1.194255] (examples_rclcpp_async_client) StdoutLine: {'line': b'4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/lint_cmake.xunit.xml\n'}
+[1.216717] (-) TimerEvent: {}
+[1.305128] (examples_rclcpp_async_client) StdoutLine: {'line': b'4: \n'}
+[1.305405] (examples_rclcpp_async_client) StdoutLine: {'line': b'4: No problems found\n'}
+[1.317015] (-) TimerEvent: {}
+[1.318993] (examples_rclcpp_async_client) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[1.319398] (examples_rclcpp_async_client) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/lint_cmake.xunit.xml'\n"}
+[1.333615] (examples_rclcpp_async_client) StdoutLine: {'line': b'4/6 Test #4: lint_cmake .......................   Passed    0.24 sec\n'}
+[1.334165] (examples_rclcpp_async_client) StdoutLine: {'line': b'test 5\n'}
+[1.334369] (examples_rclcpp_async_client) StdoutLine: {'line': b'    Start 5: uncrustify\n'}
+[1.334521] (examples_rclcpp_async_client) StdoutLine: {'line': b'\n'}
+[1.334680] (examples_rclcpp_async_client) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_async_client" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/uncrustify.xunit.xml"\n'}
+[1.335087] (examples_rclcpp_async_client) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[1.416998] (examples_rclcpp_async_client) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/services/async_client':\n"}
+[1.417351] (-) TimerEvent: {}
+[1.417645] (examples_rclcpp_async_client) StdoutLine: {'line': b'5:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/uncrustify.xunit.xml\n'}
+[1.517561] (-) TimerEvent: {}
+[1.539249] (examples_rclcpp_async_client) StdoutLine: {'line': b"5: No code style divergence in file 'main.cpp'\n"}
+[1.539464] (examples_rclcpp_async_client) StdoutLine: {'line': b'5: \n'}
+[1.539532] (examples_rclcpp_async_client) StdoutLine: {'line': b'5: No problems found\n'}
+[1.554813] (examples_rclcpp_async_client) StdoutLine: {'line': b'5: -- run_test.py: return code 0\n'}
+[1.556588] (examples_rclcpp_async_client) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/uncrustify.xunit.xml'\n"}
+[1.572306] (examples_rclcpp_async_client) StdoutLine: {'line': b'5/6 Test #5: uncrustify .......................   Passed    0.24 sec\n'}
+[1.572759] (examples_rclcpp_async_client) StdoutLine: {'line': b'test 6\n'}
+[1.573056] (examples_rclcpp_async_client) StdoutLine: {'line': b'    Start 6: xmllint\n'}
+[1.573828] (examples_rclcpp_async_client) StdoutLine: {'line': b'\n'}
+[1.573922] (examples_rclcpp_async_client) StdoutLine: {'line': b'6: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/xmllint.xunit.xml" "--package-name" "examples_rclcpp_async_client" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/xmllint.xunit.xml"\n'}
+[1.574006] (examples_rclcpp_async_client) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[1.618637] (-) TimerEvent: {}
+[1.649893] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"3: Using '--root=/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor/include' argument\n"}
+[1.650207] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: \n'}
+[1.650896] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: Done processing /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp\n'}
+[1.651220] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: \n'}
+[1.651318] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: Done processing /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp\n'}
+[1.651382] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: \n'}
+[1.651438] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"3: Using '--root=/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor/src' argument\n"}
+[1.655179] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: \n'}
+[1.655698] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: Done processing /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor/src/examples_rclcpp_cbg_executor/ping_node.cpp\n'}
+[1.655783] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: \n'}
+[1.655843] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: Done processing /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor/src/examples_rclcpp_cbg_executor/pong_node.cpp\n'}
+[1.655899] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: \n'}
+[1.655952] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: Done processing /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor/src/examples_rclcpp_cbg_executor/utilities.hpp\n'}
+[1.656005] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: \n'}
+[1.656056] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: Done processing /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor/src/ping.cpp\n'}
+[1.656110] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: \n'}
+[1.656161] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: Done processing /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor/src/ping_pong.cpp\n'}
+[1.656213] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: \n'}
+[1.656309] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: Done processing /home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor/src/pong.cpp\n'}
+[1.656372] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: \n'}
+[1.656426] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: No problems found\n'}
+[1.662487] (examples_rclcpp_async_client) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/services/async_client':\n"}
+[1.663174] (examples_rclcpp_async_client) StdoutLine: {'line': b'6:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/xmllint.xunit.xml\n'}
+[1.694815] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[1.697012] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cpplint.xunit.xml'\n"}
+[1.709863] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'3/6 Test #3: cpplint ..........................   Passed    0.70 sec\n'}
+[1.710036] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'test 4\n'}
+[1.710102] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'    Start 4: lint_cmake\n'}
+[1.710165] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'\n'}
+[1.712129] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/lint_cmake.xunit.xml"\n'}
+[1.712332] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[1.718774] (-) TimerEvent: {}
+[1.792002] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor':\n"}
+[1.792210] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/lint_cmake.xunit.xml\n'}
+[1.820140] (-) TimerEvent: {}
+[1.872889] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'4: \n'}
+[1.873546] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'4: No problems found\n'}
+[1.885966] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[1.886242] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/lint_cmake.xunit.xml'\n"}
+[1.895895] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'4/6 Test #4: lint_cmake .......................   Passed    0.19 sec\n'}
+[1.896063] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'test 5\n'}
+[1.896127] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'    Start 5: uncrustify\n'}
+[1.896184] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'\n'}
+[1.896264] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/uncrustify.xunit.xml"\n'}
+[1.896355] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[1.920938] (-) TimerEvent: {}
+[1.964737] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor':\n"}
+[1.965006] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'5:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/uncrustify.xunit.xml\n'}
+[2.021600] (-) TimerEvent: {}
+[2.078402] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"5: No code style divergence in file 'include/examples_rclcpp_cbg_executor/ping_node.hpp'\n"}
+[2.080829] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'5: \n'}
+[2.080993] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"5: No code style divergence in file 'include/examples_rclcpp_cbg_executor/pong_node.hpp'\n"}
+[2.081059] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'5: \n'}
+[2.081116] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"5: No code style divergence in file 'src/examples_rclcpp_cbg_executor/ping_node.cpp'\n"}
+[2.081172] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'5: \n'}
+[2.081225] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"5: No code style divergence in file 'src/examples_rclcpp_cbg_executor/pong_node.cpp'\n"}
+[2.081277] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'5: \n'}
+[2.081329] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"5: No code style divergence in file 'src/examples_rclcpp_cbg_executor/utilities.hpp'\n"}
+[2.084453] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'5: \n'}
+[2.084612] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"5: No code style divergence in file 'src/ping.cpp'\n"}
+[2.084704] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'5: \n'}
+[2.084877] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"5: No code style divergence in file 'src/ping_pong.cpp'\n"}
+[2.084937] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'5: \n'}
+[2.084991] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"5: No code style divergence in file 'src/pong.cpp'\n"}
+[2.085043] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'5: \n'}
+[2.085094] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'5: No problems found\n'}
+[2.091288] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'5: -- run_test.py: return code 0\n'}
+[2.091519] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/uncrustify.xunit.xml'\n"}
+[2.103582] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'5/6 Test #5: uncrustify .......................   Passed    0.21 sec\n'}
+[2.103750] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'test 6\n'}
+[2.103814] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'    Start 6: xmllint\n'}
+[2.103945] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'\n'}
+[2.104007] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'6: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/xmllint.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/xmllint.xunit.xml"\n'}
+[2.104074] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[2.122010] (-) TimerEvent: {}
+[2.176418] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/ying/d2lros2/chatpt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor':\n"}
+[2.176602] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'6:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/ying/d2lros2/chatpt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/xmllint.xunit.xml\n'}
+[2.222780] (-) TimerEvent: {}
+[2.324092] (-) TimerEvent: {}
+[2.424742] (-) TimerEvent: {}
+[2.525490] (-) TimerEvent: {}
+[2.626902] (-) TimerEvent: {}
+[2.727850] (-) TimerEvent: {}
+[2.829202] (-) TimerEvent: {}
+[2.931161] (-) TimerEvent: {}
+[3.031944] (-) TimerEvent: {}
+[3.132844] (-) TimerEvent: {}
+[3.234093] (-) TimerEvent: {}
+[3.336138] (-) TimerEvent: {}
+[3.436914] (-) TimerEvent: {}
+[3.538198] (-) TimerEvent: {}
+[3.638862] (-) TimerEvent: {}
+[3.741247] (-) TimerEvent: {}
+[3.842040] (-) TimerEvent: {}
+[3.943191] (-) TimerEvent: {}
+[4.044051] (-) TimerEvent: {}
+[4.145246] (-) TimerEvent: {}
+[4.246282] (-) TimerEvent: {}
+[4.347277] (-) TimerEvent: {}
+[4.450569] (-) TimerEvent: {}
+[4.553070] (-) TimerEvent: {}
+[4.654551] (-) TimerEvent: {}
+[4.755436] (-) TimerEvent: {}
+[4.855878] (-) TimerEvent: {}
+[4.957114] (-) TimerEvent: {}
+[5.058143] (-) TimerEvent: {}
+[5.158882] (-) TimerEvent: {}
+[5.259291] (-) TimerEvent: {}
+[5.359911] (-) TimerEvent: {}
+[5.462480] (-) TimerEvent: {}
+[5.562973] (-) TimerEvent: {}
+[5.663683] (-) TimerEvent: {}
+[5.764809] (-) TimerEvent: {}
+[5.866298] (-) TimerEvent: {}
+[5.968166] (-) TimerEvent: {}
+[6.069708] (-) TimerEvent: {}
+[6.170682] (-) TimerEvent: {}
+[6.271737] (-) TimerEvent: {}
+[6.372285] (-) TimerEvent: {}
+[6.472933] (-) TimerEvent: {}
+[6.573645] (-) TimerEvent: {}
+[6.674699] (-) TimerEvent: {}
+[6.775647] (-) TimerEvent: {}
+[6.876622] (-) TimerEvent: {}
+[6.977578] (-) TimerEvent: {}
+[7.083359] (-) TimerEvent: {}
+[7.184132] (-) TimerEvent: {}
+[7.285932] (-) TimerEvent: {}
+[7.387067] (-) TimerEvent: {}
+[7.488684] (-) TimerEvent: {}
+[7.590541] (-) TimerEvent: {}
+[7.691454] (-) TimerEvent: {}
+[7.791947] (-) TimerEvent: {}
+[7.893032] (-) TimerEvent: {}
+[7.994284] (-) TimerEvent: {}
+[8.094718] (-) TimerEvent: {}
+[8.195892] (-) TimerEvent: {}
+[8.296646] (-) TimerEvent: {}
+[8.397760] (-) TimerEvent: {}
+[8.498614] (-) TimerEvent: {}
+[8.599890] (-) TimerEvent: {}
+[8.700952] (-) TimerEvent: {}
+[8.801454] (-) TimerEvent: {}
+[8.901885] (-) TimerEvent: {}
+[9.003036] (-) TimerEvent: {}
+[9.104201] (-) TimerEvent: {}
+[9.205084] (-) TimerEvent: {}
+[9.305638] (-) TimerEvent: {}
+[9.406693] (-) TimerEvent: {}
+[9.507754] (-) TimerEvent: {}
+[9.608406] (-) TimerEvent: {}
+[9.709665] (-) TimerEvent: {}
+[9.810577] (-) TimerEvent: {}
+[9.911859] (-) TimerEvent: {}
+[10.012327] (-) TimerEvent: {}
+[10.113511] (-) TimerEvent: {}
+[10.214702] (-) TimerEvent: {}
+[10.316053] (-) TimerEvent: {}
+[10.417444] (-) TimerEvent: {}
+[10.521210] (-) TimerEvent: {}
+[10.623282] (-) TimerEvent: {}
+[10.724226] (-) TimerEvent: {}
+[10.824762] (-) TimerEvent: {}
+[10.925683] (-) TimerEvent: {}
+[11.027693] (-) TimerEvent: {}
+[11.128861] (-) TimerEvent: {}
+[11.229784] (-) TimerEvent: {}
+[11.330715] (-) TimerEvent: {}
+[11.431919] (-) TimerEvent: {}
+[11.533208] (-) TimerEvent: {}
+[11.633961] (-) TimerEvent: {}
+[11.734492] (-) TimerEvent: {}
+[11.835278] (-) TimerEvent: {}
+[11.936475] (-) TimerEvent: {}
+[12.037249] (-) TimerEvent: {}
+[12.138485] (-) TimerEvent: {}
+[12.239466] (-) TimerEvent: {}
+[12.340828] (-) TimerEvent: {}
+[12.442309] (-) TimerEvent: {}
+[12.543314] (-) TimerEvent: {}
+[12.644538] (-) TimerEvent: {}
+[12.746339] (-) TimerEvent: {}
+[12.847805] (-) TimerEvent: {}
+[12.949043] (-) TimerEvent: {}
+[13.050031] (-) TimerEvent: {}
+[13.151067] (-) TimerEvent: {}
+[13.252205] (-) TimerEvent: {}
+[13.353463] (-) TimerEvent: {}
+[13.454543] (-) TimerEvent: {}
+[13.601546] (-) TimerEvent: {}
+[13.711241] (-) TimerEvent: {}
+[13.812488] (-) TimerEvent: {}
+[13.913066] (-) TimerEvent: {}
+[14.014324] (-) TimerEvent: {}
+[14.115572] (-) TimerEvent: {}
+[14.216938] (-) TimerEvent: {}
+[14.317962] (-) TimerEvent: {}
+[14.418824] (-) TimerEvent: {}
+[14.520355] (-) TimerEvent: {}
+[14.621599] (-) TimerEvent: {}
+[14.722410] (-) TimerEvent: {}
+[14.823936] (-) TimerEvent: {}
+[14.925246] (-) TimerEvent: {}
+[15.026465] (-) TimerEvent: {}
+[15.127662] (-) TimerEvent: {}
+[15.228474] (-) TimerEvent: {}
+[15.329306] (-) TimerEvent: {}
+[15.430461] (-) TimerEvent: {}
+[15.531788] (-) TimerEvent: {}
+[15.633899] (-) TimerEvent: {}
+[15.734461] (-) TimerEvent: {}
+[15.835054] (-) TimerEvent: {}
+[15.936107] (-) TimerEvent: {}
+[16.037478] (-) TimerEvent: {}
+[16.138951] (-) TimerEvent: {}
+[16.239831] (-) TimerEvent: {}
+[16.341032] (-) TimerEvent: {}
+[16.442639] (-) TimerEvent: {}
+[16.544657] (-) TimerEvent: {}
+[16.645551] (-) TimerEvent: {}
+[16.746465] (-) TimerEvent: {}
+[16.847278] (-) TimerEvent: {}
+[16.947744] (-) TimerEvent: {}
+[17.048251] (-) TimerEvent: {}
+[17.148954] (-) TimerEvent: {}
+[17.249936] (-) TimerEvent: {}
+[17.350780] (-) TimerEvent: {}
+[17.451684] (-) TimerEvent: {}
+[17.552931] (-) TimerEvent: {}
+[17.653600] (-) TimerEvent: {}
+[17.754152] (-) TimerEvent: {}
+[17.854731] (-) TimerEvent: {}
+[17.955775] (-) TimerEvent: {}
+[18.057263] (-) TimerEvent: {}
+[18.158119] (-) TimerEvent: {}
+[18.259635] (-) TimerEvent: {}
+[18.360839] (-) TimerEvent: {}
+[18.461794] (-) TimerEvent: {}
+[18.562316] (-) TimerEvent: {}
+[18.663174] (-) TimerEvent: {}
+[18.763944] (-) TimerEvent: {}
+[18.865136] (-) TimerEvent: {}
+[18.966249] (-) TimerEvent: {}
+[19.067079] (-) TimerEvent: {}
+[19.168207] (-) TimerEvent: {}
+[19.269533] (-) TimerEvent: {}
+[19.371159] (-) TimerEvent: {}
+[19.472312] (-) TimerEvent: {}
+[19.573967] (-) TimerEvent: {}
+[19.675168] (-) TimerEvent: {}
+[19.775735] (-) TimerEvent: {}
+[19.876872] (-) TimerEvent: {}
+[19.978391] (-) TimerEvent: {}
+[20.081274] (-) TimerEvent: {}
+[20.182251] (-) TimerEvent: {}
+[20.283065] (-) TimerEvent: {}
+[20.384482] (-) TimerEvent: {}
+[20.485402] (-) TimerEvent: {}
+[20.587049] (-) TimerEvent: {}
+[20.688127] (-) TimerEvent: {}
+[20.789064] (-) TimerEvent: {}
+[20.890327] (-) TimerEvent: {}
+[20.991552] (-) TimerEvent: {}
+[21.095285] (-) TimerEvent: {}
+[21.196162] (-) TimerEvent: {}
+[21.298222] (-) TimerEvent: {}
+[21.399733] (-) TimerEvent: {}
+[21.500661] (-) TimerEvent: {}
+[21.602032] (-) TimerEvent: {}
+[21.702983] (-) TimerEvent: {}
+[21.803723] (-) TimerEvent: {}
+[21.904229] (-) TimerEvent: {}
+[22.005440] (-) TimerEvent: {}
+[22.106307] (-) TimerEvent: {}
+[22.207127] (-) TimerEvent: {}
+[22.307912] (-) TimerEvent: {}
+[22.408989] (-) TimerEvent: {}
+[22.510199] (-) TimerEvent: {}
+[22.610960] (-) TimerEvent: {}
+[22.712077] (-) TimerEvent: {}
+[22.813591] (-) TimerEvent: {}
+[22.914362] (-) TimerEvent: {}
+[23.015242] (-) TimerEvent: {}
