@@ -1,0 +1,2 @@
+Invoking command in '/home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang -- -j2 -l2
+Invoked command in '/home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang -- -j2 -l2

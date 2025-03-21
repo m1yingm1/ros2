@@ -1,0 +1,37 @@
+[1.496s] Invoking command in '/home/ying/ros2/chatpt2/town_ws/src/village_li': PYTHONPATH=/home/ying/ros2/chatpt2/town_ws/src/village_li/build/village_li/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ying/ros2/chatpt2/town_ws/src/village_li/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/village_li build --build-base /home/ying/ros2/chatpt2/town_ws/src/village_li/build/village_li/build install --record /home/ying/ros2/chatpt2/town_ws/src/village_li/build/village_li/install.log --single-version-externally-managed install_data
+[2.093s] running egg_info
+[2.095s] creating build/village_li/village_li.egg-info
+[2.095s] writing build/village_li/village_li.egg-info/PKG-INFO
+[2.098s] writing dependency_links to build/village_li/village_li.egg-info/dependency_links.txt
+[2.098s] writing entry points to build/village_li/village_li.egg-info/entry_points.txt
+[2.098s] writing requirements to build/village_li/village_li.egg-info/requires.txt
+[2.098s] writing top-level names to build/village_li/village_li.egg-info/top_level.txt
+[2.098s] writing manifest file 'build/village_li/village_li.egg-info/SOURCES.txt'
+[2.114s] reading manifest file 'build/village_li/village_li.egg-info/SOURCES.txt'
+[2.120s] writing manifest file 'build/village_li/village_li.egg-info/SOURCES.txt'
+[2.120s] running build
+[2.121s] running build_py
+[2.121s] creating /home/ying/ros2/chatpt2/town_ws/src/village_li/build/village_li/build
+[2.121s] creating /home/ying/ros2/chatpt2/town_ws/src/village_li/build/village_li/build/lib
+[2.121s] creating /home/ying/ros2/chatpt2/town_ws/src/village_li/build/village_li/build/lib/village_li
+[2.125s] copying village_li/__init__.py -> /home/ying/ros2/chatpt2/town_ws/src/village_li/build/village_li/build/lib/village_li
+[2.125s] copying village_li/li4.py -> /home/ying/ros2/chatpt2/town_ws/src/village_li/build/village_li/build/lib/village_li
+[2.129s] running install
+[2.137s] running install_lib
+[2.138s] creating /home/ying/ros2/chatpt2/town_ws/src/village_li/install/village_li/lib/python3.10/site-packages/village_li
+[2.140s] copying /home/ying/ros2/chatpt2/town_ws/src/village_li/build/village_li/build/lib/village_li/__init__.py -> /home/ying/ros2/chatpt2/town_ws/src/village_li/install/village_li/lib/python3.10/site-packages/village_li
+[2.140s] copying /home/ying/ros2/chatpt2/town_ws/src/village_li/build/village_li/build/lib/village_li/li4.py -> /home/ying/ros2/chatpt2/town_ws/src/village_li/install/village_li/lib/python3.10/site-packages/village_li
+[2.141s] byte-compiling /home/ying/ros2/chatpt2/town_ws/src/village_li/install/village_li/lib/python3.10/site-packages/village_li/__init__.py to __init__.cpython-310.pyc
+[2.141s] byte-compiling /home/ying/ros2/chatpt2/town_ws/src/village_li/install/village_li/lib/python3.10/site-packages/village_li/li4.py to li4.cpython-310.pyc
+[2.142s] running install_data
+[2.142s] creating /home/ying/ros2/chatpt2/town_ws/src/village_li/install/village_li/share/ament_index
+[2.142s] creating /home/ying/ros2/chatpt2/town_ws/src/village_li/install/village_li/share/ament_index/resource_index
+[2.143s] creating /home/ying/ros2/chatpt2/town_ws/src/village_li/install/village_li/share/ament_index/resource_index/packages
+[2.143s] copying resource/village_li -> /home/ying/ros2/chatpt2/town_ws/src/village_li/install/village_li/share/ament_index/resource_index/packages
+[2.143s] copying package.xml -> /home/ying/ros2/chatpt2/town_ws/src/village_li/install/village_li/share/village_li
+[2.144s] running install_egg_info
+[2.149s] Copying build/village_li/village_li.egg-info to /home/ying/ros2/chatpt2/town_ws/src/village_li/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info
+[2.152s] running install_scripts
+[2.211s] Installing li4_node script to /home/ying/ros2/chatpt2/town_ws/src/village_li/install/village_li/lib/village_li
+[2.213s] writing list of installed files to '/home/ying/ros2/chatpt2/town_ws/src/village_li/build/village_li/install.log'
+[2.249s] Invoked command in '/home/ying/ros2/chatpt2/town_ws/src/village_li' returned '0': PYTHONPATH=/home/ying/ros2/chatpt2/town_ws/src/village_li/build/village_li/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ying/ros2/chatpt2/town_ws/src/village_li/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/village_li build --build-base /home/ying/ros2/chatpt2/town_ws/src/village_li/build/village_li/build install --record /home/ying/ros2/chatpt2/town_ws/src/village_li/build/village_li/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+[1.113s] Invoking command in '/home/ying/ros2/chatpt2/chapt2_ws/src/example_py': PYTHONPATH=/home/ying/ros2/chatpt2/chapt2_ws/build/example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ying/ros2/chatpt2/chapt2_ws/install/example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/example_py build --build-base /home/ying/ros2/chatpt2/chapt2_ws/build/example_py/build install --record /home/ying/ros2/chatpt2/chapt2_ws/build/example_py/install.log --single-version-externally-managed install_data
+[1.461s] running egg_info
+[1.462s] creating ../../build/example_py/example_py.egg-info
+[1.462s] writing ../../build/example_py/example_py.egg-info/PKG-INFO
+[1.465s] writing dependency_links to ../../build/example_py/example_py.egg-info/dependency_links.txt
+[1.465s] writing entry points to ../../build/example_py/example_py.egg-info/entry_points.txt
+[1.465s] writing requirements to ../../build/example_py/example_py.egg-info/requires.txt
+[1.465s] writing top-level names to ../../build/example_py/example_py.egg-info/top_level.txt
+[1.465s] writing manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+[1.465s] reading manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+[1.467s] writing manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+[1.467s] running build
+[1.467s] running build_py
+[1.468s] creating /home/ying/ros2/chatpt2/chapt2_ws/build/example_py/build
+[1.469s] creating /home/ying/ros2/chatpt2/chapt2_ws/build/example_py/build/lib
+[1.470s] creating /home/ying/ros2/chatpt2/chapt2_ws/build/example_py/build/lib/example_py
+[1.472s] copying example_py/node_02.py -> /home/ying/ros2/chatpt2/chapt2_ws/build/example_py/build/lib/example_py
+[1.472s] copying example_py/__init__.py -> /home/ying/ros2/chatpt2/chapt2_ws/build/example_py/build/lib/example_py
+[1.472s] running install
+[1.472s] running install_lib
+[1.472s] creating /home/ying/ros2/chatpt2/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py
+[1.473s] copying /home/ying/ros2/chatpt2/chapt2_ws/build/example_py/build/lib/example_py/node_02.py -> /home/ying/ros2/chatpt2/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py
+[1.474s] copying /home/ying/ros2/chatpt2/chapt2_ws/build/example_py/build/lib/example_py/__init__.py -> /home/ying/ros2/chatpt2/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py
+[1.474s] byte-compiling /home/ying/ros2/chatpt2/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py/node_02.py to node_02.cpython-310.pyc
+[1.474s] byte-compiling /home/ying/ros2/chatpt2/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py/__init__.py to __init__.cpython-310.pyc
+[1.475s] running install_data
+[1.476s] creating /home/ying/ros2/chatpt2/chapt2_ws/install/example_py/share/ament_index
+[1.476s] creating /home/ying/ros2/chatpt2/chapt2_ws/install/example_py/share/ament_index/resource_index
+[1.476s] creating /home/ying/ros2/chatpt2/chapt2_ws/install/example_py/share/ament_index/resource_index/packages
+[1.477s] copying resource/example_py -> /home/ying/ros2/chatpt2/chapt2_ws/install/example_py/share/ament_index/resource_index/packages
+[1.477s] copying package.xml -> /home/ying/ros2/chatpt2/chapt2_ws/install/example_py/share/example_py
+[1.477s] running install_egg_info
+[1.479s] Copying ../../build/example_py/example_py.egg-info to /home/ying/ros2/chatpt2/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py-0.0.0-py3.10.egg-info
+[1.481s] running install_scripts
+[1.516s] Installing node_02 script to /home/ying/ros2/chatpt2/chapt2_ws/install/example_py/lib/example_py
+[1.518s] writing list of installed files to '/home/ying/ros2/chatpt2/chapt2_ws/build/example_py/install.log'
+[1.586s] Invoked command in '/home/ying/ros2/chatpt2/chapt2_ws/src/example_py' returned '0': PYTHONPATH=/home/ying/ros2/chatpt2/chapt2_ws/build/example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ying/ros2/chatpt2/chapt2_ws/install/example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/example_py build --build-base /home/ying/ros2/chatpt2/chapt2_ws/build/example_py/build install --record /home/ying/ros2/chatpt2/chapt2_ws/build/example_py/install.log --single-version-externally-managed install_data

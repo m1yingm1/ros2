@@ -1,0 +1,25 @@
+[0.028s] Invoking command in '/home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang -- -j2 -l2
+[0.168s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[5.981s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[6.349s] [100%] Built target wang2_node
+[6.402s] Invoked command in '/home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang -- -j2 -l2
+[6.434s] Invoking command in '/home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang
+[6.455s] -- Install configuration: ""
+[6.455s] -- Installing: /home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[6.456s] -- Installing: /home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[6.457s] -- Installing: /home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[6.457s] -- Installing: /home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[6.458s] -- Installing: /home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang/share/village_wang/environment/path.sh
+[6.458s] -- Installing: /home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang/share/village_wang/environment/path.dsv
+[6.458s] -- Installing: /home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang/share/village_wang/local_setup.bash
+[6.458s] -- Installing: /home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang/share/village_wang/local_setup.sh
+[6.461s] -- Installing: /home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang/share/village_wang/local_setup.zsh
+[6.462s] -- Installing: /home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang/share/village_wang/local_setup.dsv
+[6.465s] -- Installing: /home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang/share/village_wang/package.dsv
+[6.467s] -- Installing: /home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[6.468s] -- Installing: /home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[6.468s] -- Installing: /home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[6.469s] -- Installing: /home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang/share/village_wang/package.xml
+[6.469s] -- Installing: /home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang/lib/village_wang/wang2_node
+[6.469s] -- Set runtime path of "/home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang/lib/village_wang/wang2_node" to ""
+[6.471s] Invoked command in '/home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang

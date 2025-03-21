@@ -1,0 +1,160 @@
+[0.000000] (-) TimerEvent: {}
+[0.000129] (example_cpp) JobQueued: {'identifier': 'example_cpp', 'dependencies': OrderedDict()}
+[0.000160] (example_cpp) JobStarted: {'identifier': 'example_cpp'}
+[0.024728] (example_cpp) JobProgress: {'identifier': 'example_cpp', 'progress': 'cmake'}
+[0.024794] (example_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/ying/ros2/chatpt2/chapt2_ws/src/example_cpp', '-DCMAKE_INSTALL_PREFIX=/home/ying/ros2/chatpt2/chapt2_ws/install/example_cpp'], 'cwd': '/home/ying/ros2/chatpt2/chapt2_ws/build/example_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ying'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ying'), ('OLDPWD', '/home/ying/ros2/chatpt2/chapt2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1524'), ('SYSTEMD_EXEC_PID', '1679'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4015'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ying'), ('JOURNAL_STREAM', '8:25228'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ying'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ying-virtual-machine:@/tmp/.ICE-unix/1651,unix/ying-virtual-machine:/tmp/.ICE-unix/1651'), ('INVOCATION_ID', 'b300d5add49f4f4697d2773b7f89a6d7'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S53E32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:62b2ccf1-8c66-4304-b229-013862fa73f2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ying/ros2/chatpt2/chapt2_ws/build/example_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099081] (-) TimerEvent: {}
+[0.200393] (-) TimerEvent: {}
+[0.301439] (-) TimerEvent: {}
+[0.402229] (-) TimerEvent: {}
+[0.421029] (example_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.502824] (-) TimerEvent: {}
+[0.565174] (example_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.591159] (example_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.604521] (-) TimerEvent: {}
+[0.706030] (-) TimerEvent: {}
+[0.811070] (-) TimerEvent: {}
+[0.868278] (example_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.878445] (example_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.881103] (example_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.882194] (example_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.890210] (example_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.913124] (-) TimerEvent: {}
+[1.015107] (-) TimerEvent: {}
+[1.048259] (example_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.057307] (example_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.057767] (example_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.060457] (example_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.100595] (example_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.116590] (-) TimerEvent: {}
+[1.219185] (-) TimerEvent: {}
+[1.320080] (-) TimerEvent: {}
+[1.421709] (-) TimerEvent: {}
+[1.422244] (example_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.523186] (-) TimerEvent: {}
+[1.623671] (-) TimerEvent: {}
+[1.710374] (example_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.728164] (-) TimerEvent: {}
+[1.829147] (-) TimerEvent: {}
+[1.916072] (example_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.929859] (-) TimerEvent: {}
+[1.936657] (example_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.956003] (example_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.994123] (example_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.030260] (-) TimerEvent: {}
+[2.049365] (example_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.130471] (-) TimerEvent: {}
+[2.197762] (example_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.206165] (example_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.231004] (-) TimerEvent: {}
+[2.333340] (-) TimerEvent: {}
+[2.433684] (-) TimerEvent: {}
+[2.447745] (example_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.486751] (example_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.534215] (-) TimerEvent: {}
+[2.548807] (example_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.568964] (example_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.635142] (-) TimerEvent: {}
+[2.736101] (-) TimerEvent: {}
+[2.741447] (example_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.741619] (example_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.836589] (-) TimerEvent: {}
+[2.902271] (example_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.903172] (example_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.938196] (-) TimerEvent: {}
+[3.038933] (-) TimerEvent: {}
+[3.134809] (example_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.139779] (-) TimerEvent: {}
+[3.241062] (-) TimerEvent: {}
+[3.341677] (-) TimerEvent: {}
+[3.364980] (example_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.366088] (example_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.366212] (example_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.367576] (example_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.371970] (example_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.372157] (example_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.372486] (example_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.379249] (example_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.390296] (example_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[3.399535] (example_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/ying/ros2/chatpt2/chapt2_ws/build/example_cpp\n'}
+[3.412049] (example_cpp) CommandEnded: {'returncode': 0}
+[3.412474] (example_cpp) JobProgress: {'identifier': 'example_cpp', 'progress': 'build'}
+[3.412500] (example_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ying/ros2/chatpt2/chapt2_ws/build/example_cpp', '--', '-j2', '-l2'], 'cwd': '/home/ying/ros2/chatpt2/chapt2_ws/build/example_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ying'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ying'), ('OLDPWD', '/home/ying/ros2/chatpt2/chapt2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1524'), ('SYSTEMD_EXEC_PID', '1679'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4015'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ying'), ('JOURNAL_STREAM', '8:25228'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ying'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ying-virtual-machine:@/tmp/.ICE-unix/1651,unix/ying-virtual-machine:/tmp/.ICE-unix/1651'), ('INVOCATION_ID', 'b300d5add49f4f4697d2773b7f89a6d7'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S53E32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:62b2ccf1-8c66-4304-b229-013862fa73f2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ying/ros2/chatpt2/chapt2_ws/build/example_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.442227] (-) TimerEvent: {}
+[3.508094] (example_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/node_01.dir/src/node_01.cpp.o\x1b[0m\n'}
+[3.542499] (-) TimerEvent: {}
+[3.644168] (-) TimerEvent: {}
+[3.745928] (-) TimerEvent: {}
+[3.846570] (-) TimerEvent: {}
+[3.948221] (-) TimerEvent: {}
+[4.049951] (-) TimerEvent: {}
+[4.155655] (-) TimerEvent: {}
+[4.260431] (-) TimerEvent: {}
+[4.361335] (-) TimerEvent: {}
+[4.466090] (-) TimerEvent: {}
+[4.567859] (-) TimerEvent: {}
+[4.668803] (-) TimerEvent: {}
+[4.769552] (-) TimerEvent: {}
+[4.870367] (-) TimerEvent: {}
+[4.971300] (-) TimerEvent: {}
+[5.072261] (-) TimerEvent: {}
+[5.173336] (-) TimerEvent: {}
+[5.274884] (-) TimerEvent: {}
+[5.375890] (-) TimerEvent: {}
+[5.477363] (-) TimerEvent: {}
+[5.577772] (-) TimerEvent: {}
+[5.678772] (-) TimerEvent: {}
+[5.782184] (-) TimerEvent: {}
+[5.883284] (-) TimerEvent: {}
+[5.984525] (-) TimerEvent: {}
+[6.085445] (-) TimerEvent: {}
+[6.186370] (-) TimerEvent: {}
+[6.288760] (-) TimerEvent: {}
+[6.390551] (-) TimerEvent: {}
+[6.491326] (-) TimerEvent: {}
+[6.593683] (-) TimerEvent: {}
+[6.694657] (-) TimerEvent: {}
+[6.795525] (-) TimerEvent: {}
+[6.896309] (-) TimerEvent: {}
+[6.997270] (-) TimerEvent: {}
+[7.099518] (-) TimerEvent: {}
+[7.200086] (-) TimerEvent: {}
+[7.301030] (-) TimerEvent: {}
+[7.401969] (-) TimerEvent: {}
+[7.503058] (-) TimerEvent: {}
+[7.603883] (-) TimerEvent: {}
+[7.705480] (-) TimerEvent: {}
+[7.806334] (-) TimerEvent: {}
+[7.907245] (-) TimerEvent: {}
+[8.008266] (-) TimerEvent: {}
+[8.110612] (-) TimerEvent: {}
+[8.187626] (example_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable node_01\x1b[0m\n'}
+[8.210784] (-) TimerEvent: {}
+[8.311702] (-) TimerEvent: {}
+[8.409369] (example_cpp) StdoutLine: {'line': b'[100%] Built target node_01\n'}
+[8.412058] (-) TimerEvent: {}
+[8.429365] (example_cpp) CommandEnded: {'returncode': 0}
+[8.430896] (example_cpp) JobProgress: {'identifier': 'example_cpp', 'progress': 'install'}
+[8.447089] (example_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ying/ros2/chatpt2/chapt2_ws/build/example_cpp'], 'cwd': '/home/ying/ros2/chatpt2/chapt2_ws/build/example_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ying'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ying'), ('OLDPWD', '/home/ying/ros2/chatpt2/chapt2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1524'), ('SYSTEMD_EXEC_PID', '1679'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4015'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ying'), ('JOURNAL_STREAM', '8:25228'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ying'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ying-virtual-machine:@/tmp/.ICE-unix/1651,unix/ying-virtual-machine:/tmp/.ICE-unix/1651'), ('INVOCATION_ID', 'b300d5add49f4f4697d2773b7f89a6d7'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S53E32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:62b2ccf1-8c66-4304-b229-013862fa73f2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ying/ros2/chatpt2/chapt2_ws/build/example_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.461734] (example_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.462739] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/ying/ros2/chatpt2/chapt2_ws/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp\n'}
+[8.463799] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/ying/ros2/chatpt2/chapt2_ws/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp\n'}
+[8.464237] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/ying/ros2/chatpt2/chapt2_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh\n'}
+[8.465146] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/ying/ros2/chatpt2/chapt2_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv\n'}
+[8.465462] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/ying/ros2/chatpt2/chapt2_ws/install/example_cpp/share/example_cpp/environment/path.sh\n'}
+[8.465644] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/ying/ros2/chatpt2/chapt2_ws/install/example_cpp/share/example_cpp/environment/path.dsv\n'}
+[8.467334] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/ying/ros2/chatpt2/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.bash\n'}
+[8.467682] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/ying/ros2/chatpt2/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.sh\n'}
+[8.470139] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/ying/ros2/chatpt2/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.zsh\n'}
+[8.470244] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/ying/ros2/chatpt2/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.dsv\n'}
+[8.470304] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/ying/ros2/chatpt2/chapt2_ws/install/example_cpp/share/example_cpp/package.dsv\n'}
+[8.470358] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/ying/ros2/chatpt2/chapt2_ws/install/example_cpp/share/ament_index/resource_index/packages/example_cpp\n'}
+[8.470411] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/ying/ros2/chatpt2/chapt2_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake\n'}
+[8.470473] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/ying/ros2/chatpt2/chapt2_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake\n'}
+[8.470534] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/ying/ros2/chatpt2/chapt2_ws/install/example_cpp/share/example_cpp/package.xml\n'}
+[8.470643] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/ying/ros2/chatpt2/chapt2_ws/install/example_cpp/lib/example_cpp/node_01\n'}
+[8.471027] (example_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/ying/ros2/chatpt2/chapt2_ws/install/example_cpp/lib/example_cpp/node_01" to ""\n'}
+[8.473899] (example_cpp) CommandEnded: {'returncode': 0}
+[8.513276] (-) TimerEvent: {}
+[8.516091] (example_cpp) JobEnded: {'identifier': 'example_cpp', 'rc': 0}
+[8.516484] (-) EventReactorShutdown: {}

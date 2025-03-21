@@ -1,0 +1,6 @@
+Invoking command in '/home/ying/ros2/chatpt2/chapt2_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ying/ros2/chatpt2/chapt2_ws/src/example_cpp -DCMAKE_INSTALL_PREFIX=/home/ying/ros2/chatpt2/chapt2_ws/install/example_cpp
+Invoked command in '/home/ying/ros2/chatpt2/chapt2_ws/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ying/ros2/chatpt2/chapt2_ws/src/example_cpp -DCMAKE_INSTALL_PREFIX=/home/ying/ros2/chatpt2/chapt2_ws/install/example_cpp
+Invoking command in '/home/ying/ros2/chatpt2/chapt2_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ying/ros2/chatpt2/chapt2_ws/build/example_cpp -- -j2 -l2
+Invoked command in '/home/ying/ros2/chatpt2/chapt2_ws/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ying/ros2/chatpt2/chapt2_ws/build/example_cpp -- -j2 -l2
+Invoking command in '/home/ying/ros2/chatpt2/chapt2_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ying/ros2/chatpt2/chapt2_ws/build/example_cpp
+Invoked command in '/home/ying/ros2/chatpt2/chapt2_ws/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ying/ros2/chatpt2/chapt2_ws/build/example_cpp

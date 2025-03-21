@@ -1,0 +1,10 @@
+[0.031s] Invoking command in '/home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ying/ros2/chatpt2/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang -- -j2 -l2
+[0.220s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[0.714s] [01m[K/home/ying/ros2/chatpt2/town_ws/src/village_wang/src/wang2.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: 没有那个文件或目录
+[0.714s]     2 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[0.714s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.714s] compilation terminated.
+[0.718s] gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76：CMakeFiles/wang2_node.dir/src/wang2.cpp.o] 错误 1
+[0.718s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/wang2_node.dir/all] 错误 2
+[0.720s] gmake: *** [Makefile:146：all] 错误 2
+[0.724s] Invoked command in '/home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ying/ros2/chatpt2/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang -- -j2 -l2

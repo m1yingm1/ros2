@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/ying/d2lros2/chapt1",
-      "program": "/home/ying/d2lros2/chapt1/build/Debug/outDebug",
+      "cwd": "/home/ying/ros2/chatpt2/chapt2_ws/src/example_py",
+      "program": "/home/ying/ros2/chatpt2/chapt2_ws/src/example_py/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

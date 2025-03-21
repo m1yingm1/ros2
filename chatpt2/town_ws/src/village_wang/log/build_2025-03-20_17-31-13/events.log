@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.002591] (village_wang) JobQueued: {'identifier': 'village_wang', 'dependencies': OrderedDict()}
+[0.002749] (village_wang) JobStarted: {'identifier': 'village_wang'}
+[0.032570] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'cmake'}
+[0.034010] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '/home/ying/ros2/chatpt2/town_ws/src/village_wang', '-DCMAKE_INSTALL_PREFIX=/home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang'], 'cwd': '/home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ying'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ying'), ('OLDPWD', '/home/ying/ros2/chatpt2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1530'), ('SYSTEMD_EXEC_PID', '1686'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7489'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ying'), ('JOURNAL_STREAM', '8:23317'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ying'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ying-virtual-machine:@/tmp/.ICE-unix/1653,unix/ying-virtual-machine:/tmp/.ICE-unix/1653'), ('INVOCATION_ID', '700e7f9d129c4650b7ed3b348bef0db3'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TI6R32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:78bd24d0-79c3-4d5b-8cc3-92343978356a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100233] (-) TimerEvent: {}
+[0.201014] (-) TimerEvent: {}
+[0.303295] (-) TimerEvent: {}
+[0.407715] (-) TimerEvent: {}
+[0.508663] (-) TimerEvent: {}
+[0.609838] (-) TimerEvent: {}
+[0.660814] (village_wang) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.711086] (-) TimerEvent: {}
+[0.816833] (-) TimerEvent: {}
+[0.917216] (-) TimerEvent: {}
+[0.972476] (village_wang) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.009663] (village_wang) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.017652] (-) TimerEvent: {}
+[1.118424] (-) TimerEvent: {}
+[1.198432] (village_wang) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.207262] (village_wang) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.208379] (village_wang) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.210799] (village_wang) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.220739] (-) TimerEvent: {}
+[1.220959] (village_wang) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.321305] (-) TimerEvent: {}
+[1.399341] (village_wang) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.407533] (village_wang) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.407711] (village_wang) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.408458] (village_wang) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.421762] (-) TimerEvent: {}
+[1.437025] (village_wang) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.522240] (-) TimerEvent: {}
+[1.623037] (-) TimerEvent: {}
+[1.725224] (-) TimerEvent: {}
+[1.825808] (-) TimerEvent: {}
+[1.831161] (village_wang) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.926239] (-) TimerEvent: {}
+[2.028016] (-) TimerEvent: {}
+[2.128782] (-) TimerEvent: {}
+[2.134618] (village_wang) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.229038] (-) TimerEvent: {}
+[2.308331] (village_wang) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.327409] (village_wang) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.330306] (-) TimerEvent: {}
+[2.358651] (village_wang) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.407605] (village_wang) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.431970] (-) TimerEvent: {}
+[2.474473] (village_wang) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.532463] (-) TimerEvent: {}
+[2.634319] (-) TimerEvent: {}
+[2.704433] (village_wang) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.726089] (village_wang) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.735783] (-) TimerEvent: {}
+[2.837864] (-) TimerEvent: {}
+[2.938573] (-) TimerEvent: {}
+[2.971949] (village_wang) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.017037] (village_wang) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.039371] (-) TimerEvent: {}
+[3.068453] (village_wang) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.095154] (village_wang) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.139826] (-) TimerEvent: {}
+[3.241120] (-) TimerEvent: {}
+[3.323293] (village_wang) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.324768] (village_wang) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.341627] (-) TimerEvent: {}
+[3.442334] (-) TimerEvent: {}
+[3.541553] (village_wang) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.541736] (village_wang) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.542769] (-) TimerEvent: {}
+[3.643978] (-) TimerEvent: {}
+[3.727420] (village_wang) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.744418] (-) TimerEvent: {}
+[3.846348] (-) TimerEvent: {}
+[3.924708] (village_wang) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.927019] (village_wang) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.927128] (village_wang) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.937967] (village_wang) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.947211] (-) TimerEvent: {}
+[3.959374] (village_wang) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.960277] (village_wang) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.966228] (village_wang) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.974753] (village_wang) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.000774] (village_wang) StdoutLine: {'line': b'-- Generating done\n'}
+[4.004718] (village_wang) StdoutLine: {'line': b'-- Build files have been written to: /home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang\n'}
+[4.037440] (village_wang) CommandEnded: {'returncode': 0}
+[4.039061] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'build'}
+[4.043233] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang', '--', '-j2', '-l2'], 'cwd': '/home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ying'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ying'), ('OLDPWD', '/home/ying/ros2/chatpt2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1530'), ('SYSTEMD_EXEC_PID', '1686'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7489'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ying'), ('JOURNAL_STREAM', '8:23317'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ying'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ying-virtual-machine:@/tmp/.ICE-unix/1653,unix/ying-virtual-machine:/tmp/.ICE-unix/1653'), ('INVOCATION_ID', '700e7f9d129c4650b7ed3b348bef0db3'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TI6R32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:78bd24d0-79c3-4d5b-8cc3-92343978356a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ying/ros2/chatpt2/town_ws/src/village_wang/build/village_wang'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.048042] (-) TimerEvent: {}
+[4.150341] (-) TimerEvent: {}
+[4.217799] (village_wang) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o\x1b[0m\n'}
+[4.250661] (-) TimerEvent: {}
+[4.351612] (-) TimerEvent: {}
+[4.452823] (-) TimerEvent: {}
+[4.553995] (-) TimerEvent: {}
+[4.654905] (-) TimerEvent: {}
+[4.756618] (-) TimerEvent: {}
+[4.858863] (-) TimerEvent: {}
+[4.959560] (-) TimerEvent: {}
+[5.062182] (-) TimerEvent: {}
+[5.164850] (-) TimerEvent: {}
+[5.267776] (-) TimerEvent: {}
+[5.371220] (-) TimerEvent: {}
+[5.471672] (-) TimerEvent: {}
+[5.574695] (-) TimerEvent: {}
+[5.676054] (-) TimerEvent: {}
+[5.777072] (-) TimerEvent: {}
+[5.878019] (-) TimerEvent: {}
+[5.979358] (-) TimerEvent: {}
+[6.080524] (-) TimerEvent: {}
+[6.184110] (-) TimerEvent: {}
+[6.285504] (-) TimerEvent: {}
+[6.390969] (-) TimerEvent: {}
+[6.492770] (-) TimerEvent: {}
+[6.594766] (-) TimerEvent: {}
+[6.698171] (-) TimerEvent: {}
+[6.798883] (-) TimerEvent: {}
+[6.899545] (-) TimerEvent: {}
+[7.000269] (-) TimerEvent: {}
+[7.100936] (-) TimerEvent: {}
+[7.201726] (-) TimerEvent: {}
+[7.302272] (-) TimerEvent: {}
+[7.404829] (-) TimerEvent: {}
+[7.505494] (-) TimerEvent: {}
+[7.610456] (-) TimerEvent: {}
+[7.715844] (-) TimerEvent: {}
+[7.817185] (-) TimerEvent: {}
+[7.918289] (-) TimerEvent: {}
+[8.031893] (-) TimerEvent: {}
+[8.136110] (-) TimerEvent: {}
+[8.237749] (-) TimerEvent: {}
+[8.338862] (-) TimerEvent: {}
+[8.442722] (-) TimerEvent: {}
+[8.549393] (-) TimerEvent: {}
+[8.650183] (-) TimerEvent: {}
+[8.757297] (-) TimerEvent: {}
+[8.873514] (-) TimerEvent: {}
+[8.974795] (-) TimerEvent: {}
+[9.078789] (-) TimerEvent: {}
+[9.180798] (-) TimerEvent: {}
+[9.282362] (-) TimerEvent: {}
+[9.383646] (-) TimerEvent: {}
+[9.485161] (-) TimerEvent: {}
+[9.587279] (-) TimerEvent: {}
+[9.690280] (-) TimerEvent: {}
+[9.790772] (-) TimerEvent: {}
+[9.892119] (-) TimerEvent: {}
+[9.994608] (-) TimerEvent: {}
+[10.102561] (-) TimerEvent: {}
+[10.203615] (-) TimerEvent: {}
+[10.305175] (-) TimerEvent: {}
+[10.406965] (-) TimerEvent: {}
+[10.436963] (village_wang) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76: CMakeFiles/wang2_node.dir/src/wang2.cpp.o] \xe4\xb8\xad\xe6\x96\xad\n'}
+[10.437165] (village_wang) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wang2_node.dir/all] \xe4\xb8\xad\xe6\x96\xad\n'}
+[10.437235] (village_wang) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xe4\xb8\xad\xe6\x96\xad\n'}
+[10.498244] (village_wang) CommandEnded: {'returncode': -2}
+[10.507827] (-) TimerEvent: {}
+[10.570090] (village_wang) JobEnded: {'identifier': 'village_wang', 'rc': 'SIGINT'}
+[10.581301] (-) EventReactorShutdown: {}

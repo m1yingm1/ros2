@@ -1,0 +1,1 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/ying/ros2/chatpt2/town_ws/build/village_wang/CMakeCache.txt is different than the directory /home/ying/d2lros2/chatpt2/town_ws/build/village_wang where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
