@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.000230] (example_topic_rclcpp) JobQueued: {'identifier': 'example_topic_rclcpp', 'dependencies': OrderedDict()}
+[0.000268] (example_topic_rclcpp) JobStarted: {'identifier': 'example_topic_rclcpp'}
+[0.023220] (example_topic_rclcpp) JobProgress: {'identifier': 'example_topic_rclcpp', 'progress': 'cmake'}
+[0.023842] (example_topic_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '/home/ying/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp', '-DCMAKE_INSTALL_PREFIX=/home/ying/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp'], 'cwd': '/home/ying/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ying'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ying'), ('OLDPWD', '/home/ying/d2lros2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1524'), ('SYSTEMD_EXEC_PID', '1679'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4015'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ying/ros2/chatpt2/town_ws/src/village_wang/install:/home/ying/ros2/chatpt2/town_ws/install:/home/ying/ros2/chatpt2/town_ws/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ying'), ('JOURNAL_STREAM', '8:25228'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ying'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ying-virtual-machine:@/tmp/.ICE-unix/1651,unix/ying-virtual-machine:/tmp/.ICE-unix/1651'), ('INVOCATION_ID', 'b300d5add49f4f4697d2773b7f89a6d7'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S53E32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang:/home/ying/ros2/chatpt2/town_ws/install/village_wang:/home/ying/ros2/chatpt2/town_ws/install/village_li:/home/ying/ros2/chatpt2/town_ws/src/install/village_li:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:169507e2-c635-44d3-96de-dabd4964f1c9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ying/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ying/ros2/chatpt2/town_ws/install/village_li/lib/python3.10/site-packages:/home/ying/ros2/chatpt2/town_ws/src/install/village_li/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang:/home/ying/ros2/chatpt2/town_ws/install/village_wang:/home/ying/ros2/chatpt2/town_ws/install/village_li:/home/ying/ros2/chatpt2/town_ws/src/install/village_li:/opt/ros/humble')]), 'shell': False}
+[0.098956] (-) TimerEvent: {}
+[0.199694] (-) TimerEvent: {}
+[0.301401] (-) TimerEvent: {}
+[0.349484] (example_topic_rclcpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.401924] (-) TimerEvent: {}
+[0.502622] (-) TimerEvent: {}
+[0.510044] (example_topic_rclcpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.535144] (example_topic_rclcpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.602811] (-) TimerEvent: {}
+[0.664528] (example_topic_rclcpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.671562] (example_topic_rclcpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.675357] (example_topic_rclcpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.676941] (example_topic_rclcpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.687334] (example_topic_rclcpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.703306] (-) TimerEvent: {}
+[0.803681] (-) TimerEvent: {}
+[0.811866] (example_topic_rclcpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.820646] (example_topic_rclcpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.820897] (example_topic_rclcpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.822196] (example_topic_rclcpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.854444] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.903969] (-) TimerEvent: {}
+[1.005270] (-) TimerEvent: {}
+[1.066123] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.105596] (-) TimerEvent: {}
+[1.206939] (-) TimerEvent: {}
+[1.243677] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.307288] (-) TimerEvent: {}
+[1.371678] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.384763] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.407648] (-) TimerEvent: {}
+[1.408009] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.444845] (example_topic_rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.482971] (example_topic_rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.507933] (-) TimerEvent: {}
+[1.585428] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.593172] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.608434] (-) TimerEvent: {}
+[1.709752] (-) TimerEvent: {}
+[1.771062] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.804041] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.809964] (-) TimerEvent: {}
+[1.854711] (example_topic_rclcpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.876088] (example_topic_rclcpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.910830] (-) TimerEvent: {}
+[2.012033] (-) TimerEvent: {}
+[2.023312] (example_topic_rclcpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.023495] (example_topic_rclcpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.112875] (-) TimerEvent: {}
+[2.204067] (example_topic_rclcpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.204238] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.213411] (-) TimerEvent: {}
+[2.314287] (-) TimerEvent: {}
+[2.364728] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.414991] (-) TimerEvent: {}
+[2.515637] (-) TimerEvent: {}
+[2.520336] (example_topic_rclcpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.520530] (example_topic_rclcpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.520714] (example_topic_rclcpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.521968] (example_topic_rclcpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.525626] (example_topic_rclcpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.525952] (example_topic_rclcpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.527631] (example_topic_rclcpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.539054] (example_topic_rclcpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.553047] (example_topic_rclcpp) StdoutLine: {'line': b'-- Generating done\n'}
+[2.564441] (example_topic_rclcpp) StdoutLine: {'line': b'-- Build files have been written to: /home/ying/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp\n'}
+[2.580620] (example_topic_rclcpp) CommandEnded: {'returncode': 0}
+[2.582461] (example_topic_rclcpp) JobProgress: {'identifier': 'example_topic_rclcpp', 'progress': 'build'}
+[2.583491] (example_topic_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ying/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp', '--', '-j2', '-l2'], 'cwd': '/home/ying/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ying'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ying'), ('OLDPWD', '/home/ying/d2lros2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1524'), ('SYSTEMD_EXEC_PID', '1679'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4015'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ying/ros2/chatpt2/town_ws/src/village_wang/install:/home/ying/ros2/chatpt2/town_ws/install:/home/ying/ros2/chatpt2/town_ws/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ying'), ('JOURNAL_STREAM', '8:25228'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ying'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ying-virtual-machine:@/tmp/.ICE-unix/1651,unix/ying-virtual-machine:/tmp/.ICE-unix/1651'), ('INVOCATION_ID', 'b300d5add49f4f4697d2773b7f89a6d7'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S53E32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang:/home/ying/ros2/chatpt2/town_ws/install/village_wang:/home/ying/ros2/chatpt2/town_ws/install/village_li:/home/ying/ros2/chatpt2/town_ws/src/install/village_li:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:169507e2-c635-44d3-96de-dabd4964f1c9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ying/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ying/ros2/chatpt2/town_ws/install/village_li/lib/python3.10/site-packages:/home/ying/ros2/chatpt2/town_ws/src/install/village_li/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang:/home/ying/ros2/chatpt2/town_ws/install/village_wang:/home/ying/ros2/chatpt2/town_ws/install/village_li:/home/ying/ros2/chatpt2/town_ws/src/install/village_li:/opt/ros/humble')]), 'shell': False}
+[2.617153] (-) TimerEvent: {}
+[2.700087] (example_topic_rclcpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o\x1b[0m\n'}
+[2.717947] (-) TimerEvent: {}
+[2.819763] (-) TimerEvent: {}
+[2.920795] (-) TimerEvent: {}
+[3.022701] (-) TimerEvent: {}
+[3.125874] (-) TimerEvent: {}
+[3.227335] (-) TimerEvent: {}
+[3.328071] (-) TimerEvent: {}
+[3.429839] (-) TimerEvent: {}
+[3.532296] (-) TimerEvent: {}
+[3.633696] (-) TimerEvent: {}
+[3.735467] (-) TimerEvent: {}
+[3.838878] (-) TimerEvent: {}
+[3.942485] (-) TimerEvent: {}
+[4.046871] (-) TimerEvent: {}
+[4.150244] (-) TimerEvent: {}
+[4.250887] (-) TimerEvent: {}
+[4.353724] (-) TimerEvent: {}
+[4.454424] (-) TimerEvent: {}
+[4.555126] (-) TimerEvent: {}
+[4.656622] (-) TimerEvent: {}
+[4.759941] (-) TimerEvent: {}
+[4.860425] (-) TimerEvent: {}
+[4.961329] (-) TimerEvent: {}
+[5.061759] (-) TimerEvent: {}
+[5.162731] (-) TimerEvent: {}
+[5.264680] (-) TimerEvent: {}
+[5.365087] (-) TimerEvent: {}
+[5.466077] (-) TimerEvent: {}
+[5.567206] (-) TimerEvent: {}
+[5.669169] (-) TimerEvent: {}
+[5.771193] (-) TimerEvent: {}
+[5.874261] (-) TimerEvent: {}
+[5.978368] (-) TimerEvent: {}
+[6.082311] (-) TimerEvent: {}
+[6.182696] (-) TimerEvent: {}
+[6.284049] (-) TimerEvent: {}
+[6.384961] (-) TimerEvent: {}
+[6.485814] (-) TimerEvent: {}
+[6.587059] (-) TimerEvent: {}
+[6.688121] (-) TimerEvent: {}
+[6.789057] (-) TimerEvent: {}
+[6.890193] (-) TimerEvent: {}
+[6.991202] (-) TimerEvent: {}
+[7.092270] (-) TimerEvent: {}
+[7.193262] (-) TimerEvent: {}
+[7.293785] (-) TimerEvent: {}
+[7.394708] (-) TimerEvent: {}
+[7.495024] (-) TimerEvent: {}
+[7.596122] (-) TimerEvent: {}
+[7.697167] (-) TimerEvent: {}
+[7.798086] (-) TimerEvent: {}
+[7.899142] (-) TimerEvent: {}
+[7.988388] (example_topic_rclcpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable topic_publisher_01\x1b[0m\n'}
+[7.999430] (-) TimerEvent: {}
+[8.100212] (-) TimerEvent: {}
+[8.201913] (-) TimerEvent: {}
+[8.277918] (example_topic_rclcpp) StdoutLine: {'line': b'[100%] Built target topic_publisher_01\n'}
+[8.294983] (example_topic_rclcpp) CommandEnded: {'returncode': 0}
+[8.295379] (example_topic_rclcpp) JobProgress: {'identifier': 'example_topic_rclcpp', 'progress': 'install'}
+[8.302311] (-) TimerEvent: {}
+[8.308666] (example_topic_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ying/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp'], 'cwd': '/home/ying/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ying'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ying'), ('OLDPWD', '/home/ying/d2lros2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1524'), ('SYSTEMD_EXEC_PID', '1679'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4015'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ying/ros2/chatpt2/town_ws/src/village_wang/install:/home/ying/ros2/chatpt2/town_ws/install:/home/ying/ros2/chatpt2/town_ws/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ying'), ('JOURNAL_STREAM', '8:25228'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ying'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ying-virtual-machine:@/tmp/.ICE-unix/1651,unix/ying-virtual-machine:/tmp/.ICE-unix/1651'), ('INVOCATION_ID', 'b300d5add49f4f4697d2773b7f89a6d7'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S53E32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang:/home/ying/ros2/chatpt2/town_ws/install/village_wang:/home/ying/ros2/chatpt2/town_ws/install/village_li:/home/ying/ros2/chatpt2/town_ws/src/install/village_li:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:169507e2-c635-44d3-96de-dabd4964f1c9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ying/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ying/ros2/chatpt2/town_ws/install/village_li/lib/python3.10/site-packages:/home/ying/ros2/chatpt2/town_ws/src/install/village_li/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ying/ros2/chatpt2/town_ws/src/village_wang/install/village_wang:/home/ying/ros2/chatpt2/town_ws/install/village_wang:/home/ying/ros2/chatpt2/town_ws/install/village_li:/home/ying/ros2/chatpt2/town_ws/src/install/village_li:/opt/ros/humble')]), 'shell': False}
+[8.319601] (example_topic_rclcpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.319981] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ying/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_topic_rclcpp\n'}
+[8.320157] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ying/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_topic_rclcpp\n'}
+[8.320412] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ying/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.sh\n'}
+[8.320590] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ying/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.dsv\n'}
+[8.320846] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ying/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.sh\n'}
+[8.321048] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ying/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.dsv\n'}
+[8.321220] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ying/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.bash\n'}
+[8.321390] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ying/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.sh\n'}
+[8.321600] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ying/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.zsh\n'}
+[8.321760] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ying/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.dsv\n'}
+[8.322102] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ying/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/package.dsv\n'}
+[8.322277] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ying/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/ament_index/resource_index/packages/example_topic_rclcpp\n'}
+[8.322582] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ying/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig.cmake\n'}
+[8.322765] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ying/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig-version.cmake\n'}
+[8.322930] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ying/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/package.xml\n'}
+[8.323286] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ying/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01\n'}
+[8.324433] (example_topic_rclcpp) StdoutLine: {'line': b'-- Set runtime path of "/home/ying/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01" to ""\n'}
+[8.326733] (example_topic_rclcpp) CommandEnded: {'returncode': 0}
+[8.378172] (example_topic_rclcpp) JobEnded: {'identifier': 'example_topic_rclcpp', 'rc': 0}
+[8.378597] (-) EventReactorShutdown: {}

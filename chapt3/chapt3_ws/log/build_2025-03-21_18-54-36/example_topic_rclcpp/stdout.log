@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target topic_subscribe_01[0m
+[ 50%] Built target topic_publisher_01
+[ 75%] [32m[1mLinking CXX executable topic_subscribe_01[0m

@@ -1,0 +1,10 @@
+[0.018s] Invoking command in '/home/ying/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ying/ros2/chatpt2/town_ws/install/village_li:/home/ying/ros2/chatpt2/town_ws/src/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/ying/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j2 -l2
+[0.112s] [ 50%] Built target topic_publisher_01
+[0.113s] [ 75%] [32m[1mLinking CXX executable topic_subscribe_01[0m
+[0.256s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.256s] (.text+0x1b): undefined reference to `main'
+[0.259s] collect2: error: ld returned 1 exit status
+[0.264s] gmake[2]: *** [CMakeFiles/topic_subscribe_01.dir/build.make:159：topic_subscribe_01] 错误 1
+[0.264s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/topic_subscribe_01.dir/all] 错误 2
+[0.264s] gmake: *** [Makefile:146：all] 错误 2
+[0.268s] Invoked command in '/home/ying/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ying/ros2/chatpt2/town_ws/install/village_li:/home/ying/ros2/chatpt2/town_ws/src/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/ying/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j2 -l2
